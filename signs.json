@@ -1,0 +1,407 @@
+{
+	"name": "Usefull Signs",
+	"author": "Gamearoo",
+	"pack_id": "f0e0310e-c614-43ee-9968-4f107d676b77",
+	"types": {
+		"usefull_shieldother": "Other Signs",
+		"usefull_shieldparking": "Parking Signs",
+		"usefull_shieldroad": "Road Signs",
+		"usefull_shieldconstruction": "Construction Signs",
+		"usefull_shieldwarn": "Warning Signs",
+		"usefull_shieldlaw": "Law Sign",
+		"usefull_shieldshield": "Shields"
+	},
+	"signs": [{
+			"id": "e9c3faf4-e610-400c-9d4c-e3678c0226ec",
+			"name": "Interstate Shield",
+			"type": "usefull_shieldshield",
+			"front": "interstate.png",
+			"back": "interstate_back.png",
+			"textlines": [{
+				"label": "IS Number",
+				"x": 8,
+				"y": 8,
+				"width": 13.6,
+				"maxlength": 3,
+				"xscale": 8,
+				"yscale": 8,
+				"halign": "center",
+				"valign": "center",
+				"color": 16777215
+			}]
+		},
+		{
+			"id": "65096c52-7f32-44ad-b204-c39efa418d33",
+			"name": "Stop Sign",
+			"type": "usefull_shieldroad",
+			"front": "stopsign.png",
+			"back": "stopsign_back.png",
+			"textlines": [{
+				"label": "Text",
+				"x": 8,
+				"y": 8,
+				"width": 13,
+				"maxlength": 5,
+				"xscale": 8,
+				"yscale": 8,
+				"halign": "center",
+				"valign": "center",
+				"color": 16777215
+			}]
+		},
+		{
+			"id": "f24f04aa-c37a-46b4-9d66-287e27737814",
+			"name": "Handicap",
+			"type": "usefull_shieldparking",
+			"front": "reserved_thin_space.png",
+			"back": "reserved_thin_back.png",
+			"textlines": [{
+				"label": "Text",
+				"x": 8,
+				"y": 14,
+				"width": 8,
+				"maxlength": 5,
+				"xscale": 1.5,
+				"yscale": 1.5,
+				"halign": "center",
+				"valign": "center",
+				"color": 11541550
+			}]
+		},
+		{
+			"id": "dbb806bb-0028-4b6d-b222-b0975064d10b",
+			"name": "Handicap Van",
+			"type": "usefull_shieldparking",
+			"front": "reserved_thin_van.png",
+			"back": "reserved_thin_back.png",
+			"textlines": [{
+				"label": "Text",
+				"x": 8,
+				"y": 14,
+				"width": 8,
+				"maxlength": 5,
+				"xscale": 1.5,
+				"yscale": 1.5,
+				"halign": "center",
+				"valign": "center",
+				"color": 11541550
+			}]
+		},
+		{
+			"id": "611b2fd9-3b86-4f4d-96fd-4dddeb45cd68",
+			"name": "Handicap Arrow Left",
+			"type": "usefull_shieldparking",
+			"front": "reserved_thin_left.png",
+			"back": "reserved_thin_back.png",
+			"textlines": [{
+				"label": "Text",
+				"x": 8,
+				"y": 14,
+				"width": 8,
+				"maxlength": 5,
+				"xscale": 1.5,
+				"yscale": 1.5,
+				"halign": "center",
+				"valign": "center",
+				"color": 11541550
+			}]
+		},
+		{
+			"id": "be8acd72-543e-4929-9e45-987b2966502c",
+			"name": "U-Turn Only",
+			"type": "usefull_shieldroad",
+			"front": "uturnonly.png",
+			"back": "uturnonlyback.png"
+		},
+		{
+			"id": "fd640922-01f8-4059-80bb-e7cb72789f14",
+			"name": "Ramp Metered When Flashing",
+			"type": "usefull_shieldwarn",
+			"front": "rampm.png",
+			"back": "rampmback.png"
+		},
+		{
+			"id": "d393b0e8-db36-4b04-8b7b-0547ed83f705",
+			"name": "One Car Per Green Each Lane",
+			"type": "usefull_shieldlaw",
+			"front": "onecar.png",
+			"back": "onecarback.png"
+		},
+		{
+			"id": "70a337c0-00b0-4637-8f7a-a7178adce4d5",
+			"name": "Express Lane",
+			"type": "usefull_shieldshield",
+			"halfheight": true,
+			"front": "express.png",
+			"back": "newback.png"
+		},
+		{
+			"id": "47361ae9-82f2-40ee-8b17-6815768134f3",
+			"name": "Do not block",
+			"type": "usefull_shieldlaw",
+			"front": "do_not_block_intsctn.png",
+			"back": "default_rectangle_back.png"
+		},
+		{
+			"id": "17366008-e6e7-401f-a9bd-756a1bd9568c",
+			"name": "New",
+			"type": "usefull_shieldshield",
+			"halfheight": true,
+			"front": "new.png",
+			"back": "newback.png"
+		},
+		{
+			"id": "6d91ef6b-0e3e-4d19-a369-35927494e14f",
+			"name": "End Express Lane",
+			"type": "usefull_shieldother",
+			"front": "endexpress.png",
+			"back": "endexpressback.png"
+		},
+		{
+			"id": "9db31d19-90e5-4df4-b11c-4b7ea4c2fc5b",
+			"name": "Event Parking Only",
+			"type": "usefull_shieldparking",
+			"front": "eventp.png",
+			"back": "eventpback.png"
+		},
+		{
+			"id": "877715bc-f0ed-4467-b6ea-515845d1baea",
+			"name": "Emergency Light",
+			"type": "usefull_shieldother",
+			"front": "emergency_signal.png",
+			"back": "default_rectangle_back.png"
+		},
+		{
+			"id": "5f59b928-9fcb-4885-b173-0e959059d1f8",
+			"name": "Parking Closed",
+			"type": "usefull_shieldparking",
+			"front": "lotclosed.png",
+			"back": "lotclosedback.png"
+		},
+		{
+			"id": "c6958e59-479a-4a98-aa1e-47c4476839ad",
+			"name": "Parking Payment",
+			"type": "usefull_shieldparking",
+			"front": "park.png",
+			"back": "parkback.png"
+		},
+		{
+			"id": "5e0b3e2d-2626-46e1-bc71-e068a8c4a97b",
+			"name": "free_usefull_shieldparking_reminder",
+			"type": "usefull_shieldparking",
+			"front": "free_usefull_shieldparking_reminder.png",
+			"back": "newusefull_shieldparkingback.png"
+		},
+		{
+			"id": "b6da0806-094f-41ef-a622-d1fa7659c37b",
+			"name": "paid_pking_ticket",
+			"type": "usefull_shieldparking",
+			"front": "paid_pking_ticket.png",
+			"back": "newusefull_shieldparkingback.png"
+		},
+		{
+			"id": "dd36add7-1335-4555-a2a5-2934a0509265",
+			"name": "Parking_PayNGo",
+			"type": "usefull_shieldparking",
+			"front": "usefull_shieldparking_payngo.png",
+			"back": "usefull_shieldparking_back1.png"
+		},
+		{
+			"id": "b3600b85-a02b-47d9-ba99-bc82c5564e54",
+			"name": "usefull_shieldparking_event",
+			"type": "usefull_shieldparking",
+			"front": "usefull_shieldparking_event.png",
+			"back": "usefull_shieldparking_back1.png"
+		},
+		{
+			"id": "ec9bb957-dbd3-44d9-97d6-407d0ad802d5",
+			"name": "accessibility_free_of_charge",
+			"type": "usefull_shieldparking",
+			"front": "accessibility_free_of_charge.png",
+			"back": "accessibility_free_of_charge_back.png"
+		},
+		{
+			"id": "ed194689-9f1e-4a03-b28d-bafc0e7f9e6e",
+			"name": "No Right Turn Except From Right Lane",
+			"type": "usefull_shieldlaw",
+			"front": "noturnexcept.png",
+			"back": "noturnexceptback.png"
+		},
+		{
+			"id": "8907e0bc-e06b-4330-9a61-64f410f5921a",
+			"name": "Lane Closed Ahead",
+			"type": "usefull_shieldconstruction",
+			"front": "leftlaneclosedc.png",
+			"back": "leftlaneclosedcback.png",
+			"textlines": [{
+				"label": "Text",
+				"x": 5.5,
+				"y": 6.5,
+				"width": 5,
+				"maxlength": 10,
+				"xscale": 1.8,
+				"yscale": 1.8,
+				"halign": "center",
+				"valign": "center",
+				"color": 65793
+			}]
+		},
+
+		{
+			"id": "2d92d839-0a49-4d08-bca6-ac927baeafe1",
+			"name": "Be Prepared To Stop When Flashing",
+			"type": "usefull_shieldwarn",
+			"front": "stopwhenflash.png",
+			"back": "stopwhenflashback.png"
+		},
+		{
+			"id": "96b9edc4-6f19-4c41-8c98-11d977c14a8b",
+			"name": "No Peds and Bikes",
+			"type": "usefull_shieldlaw",
+			"front": "ped.png",
+			"back": "pedback.png"
+		},
+		{
+			"id": "3f8c7a13-0464-4569-af74-d24c93637999",
+			"name": "US Route Shield",
+			"type": "usefull_shieldshield",
+			"front": "us.png",
+			"back": "usback.png",
+			"textlines": [{
+				"label": "US Route Number",
+				"x": 8,
+				"y": 8,
+				"width": 13.6,
+				"maxlength": 3,
+				"xscale": 8,
+				"yscale": 8,
+				"halign": "center",
+				"valign": "center",
+				"color": 65793
+			}]
+		},
+		{
+			"id": "571095b1-ef7b-4b93-93a6-6120bb0394b0",
+			"name": "Warnning Sign Square",
+			"type": "usefull_shieldwarn",
+			"front": "usefull_shieldwarns.png",
+			"back": "usefull_shieldwarnsback.png",
+			"textlines": [{
+					"label": "line 1",
+					"x": 8,
+					"y": 5,
+					"width": 20,
+				"maxlength": 20,
+				"xscale": 1.8,
+				"yscale": 1.8,
+					"halign": "center",
+					"valign": "center",
+					"color": 65793
+				},
+				{
+					"label": "line 2",
+					"x": 8,
+					"y": 7,
+					"width": 20,
+				"maxlength": 20,
+				"xscale": 1.8,
+				"yscale": 1.8,
+					"halign": "center",
+					"valign": "center",
+					"color": 65793
+				},
+				{
+					"label": "line 3",
+					"x": 8,
+					"y": 9,
+					"width": 20,
+				"maxlength": 20,
+				"xscale": 1.8,
+				"yscale": 1.8,
+					"halign": "center",
+					"valign": "center",
+					"color": 65793
+				},
+				{
+					"label": "line 4",
+					"x": 8,
+					"y": 11,
+					"width": 20,
+				"maxlength": 20,
+				"xscale": 1.8,
+				"yscale": 1.8,
+					"halign": "center",
+					"valign": "center",
+					"color": 65793
+				}
+			]
+		},
+		
+			{
+				"id": "07016590-8cef-405d-b3b4-a8964d6b81ec",
+				"name": "Construction Do not enter",
+				"type": "usefull_shieldconstruction",
+				"front": "cfront.png",
+				"back": "cback.png"
+			},
+		
+		{
+			"id": "abb9f5a7-b8d8-427a-b0e3-55e3d52eea6f",
+			"name": "Warnning Sign",
+			"type": "usefull_shieldwarn",
+			"front": "usefull_shieldwarn.png",
+			"back": "usefull_shieldwarnback.png",
+			"textlines": [{
+					"label": "line 1",
+					"x": 8,
+					"y": 5,
+					"width": 20,
+				"maxlength": 20,
+				"xscale": 1.8,
+				"yscale": 1.8,
+					"halign": "center",
+					"valign": "center",
+					"color": 65793
+				},
+				{
+					"label": "line 2",
+					"x": 8,
+					"y": 7,
+					"width": 20,
+				"maxlength": 20,
+				"xscale": 1.8,
+				"yscale": 1.8,
+					"halign": "center",
+					"valign": "center",
+					"color": 65793
+				},
+				{
+					"label": "line 3",
+					"x": 8,
+					"y": 9,
+					"width": 20,
+				"maxlength": 20,
+				"xscale": 1.8,
+				"yscale": 1.8,
+					"halign": "center",
+					"valign": "center",
+					"color": 65793
+				},
+				{
+					"label": "line 4",
+					"x": 8,
+					"y": 11,
+					"width": 20,
+				"maxlength": 20,
+				"xscale": 1.8,
+				"yscale": 1.8,
+					"halign": "center",
+					"valign": "center",
+					"color": 65793
+				}
+			]
+		}
+
+
+	]
+}
