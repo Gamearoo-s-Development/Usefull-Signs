@@ -968,6 +968,48 @@
           "color": 16777215
         }
       ]
+    },
+    {
+      "id": "7bf35689-28da-4fe9-98b7-af7b23beaba9",
+      "name": "Dial 511 (traffic lights)",
+      "type": "usefull_other",
+      "front": "dial_511.png",
+      "back": "default_horiz_back.png"
+    },
+    {
+      "id": "139c7509-2cdc-48d0-b966-a5b2c0a991fe",
+      "name": "Center Lane",
+      "type": "usefull_road",
+      "front": "center_left_turn_lane.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "f0fd71fa-080d-48c7-9ac3-3264ee208cb1",
+      "name": "Left Or Slip Right",
+      "type": "usefull_road",
+      "front": "left_or_slip_right.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "01a7a75a-f8c2-408b-95d7-c12e607f1486",
+      "name": "Left, Straight or slip right",
+      "type": "usefull_road",
+      "front": "left_straight_or_slip_right.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "5d3abb6d-cf19-4060-bb85-04516a24c3d9",
+      "name": "Straight or slip right",
+      "type": "usefull_road",
+      "front": "straight_or_slip_right.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "499650d8-d982-40f2-9ec9-f7b3d7453703",
+      "name": "Slip Right Only",
+      "type": "usefull_road",
+      "front": "slip_right_only_edge.png",
+      "back": "default_rectangle_back.png"
     }
   ]
 }
