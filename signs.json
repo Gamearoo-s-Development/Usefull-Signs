@@ -126,6 +126,127 @@
       "back": "default_rectangle_back.png"
     },
     {
+      "id": "8ba47c3e-90f9-475b-867c-1c60e904f9dd",
+      "name": "Double Left Turn Only",
+      "type": "usefull_road",
+      "front": "double_left_turn_only.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "08ba16a2-cd32-45d2-934f-5f86b0327482",
+      "name": "Double Right Turn Only",
+      "type": "usefull_road",
+      "front": "double_right_turn_only.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "fa9283d5-1602-4c15-968c-4a029f78655c",
+      "name": "Double Slight Right Turn Only",
+      "type": "usefull_road",
+      "front": "double_slight_right_turn_only.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "e7147463-ab05-4cc6-9a12-e4566329d57a",
+      "name": "Double Slight Left Turn Only",
+      "type": "usefull_road",
+      "front": "double_slight-left_turn_only.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "bc7ea307-b94b-4597-942d-bc347e0e3fb5",
+      "name": "Left Only or Left Straight",
+      "type": "usefull_road",
+      "front": "left_only_or_left_straight.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "5e6fd88c-7023-41dc-a2d3-5b2be2f647a9",
+      "name": "Left U-turn and Left Turn",
+      "type": "usefull_road",
+      "front": "left_u_and_left.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "bc0909c3-16a7-43ee-8e56-8a67f581171c",
+      "name": "No U-Turn Double Left",
+      "type": "usefull_road",
+      "front": "no_u_turn_double_left.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "d064fc84-8c68-41ad-8132-0a9fbf01fffc",
+      "name": "Stop Here For Peds Left",
+      "type": "usefull_law",
+      "front": "peds_left_horizontal_stop.png",
+      "back": "default_horiz_back.png"
+    },
+    {
+      "id": "4ab5cc1f-0978-41a0-bc59-59dd1c53f837",
+      "name": "Yield Here To Peds Left",
+      "type": "usefull_law",
+      "front": "peds_left_horizontal_yield.png",
+      "back": "default_horiz_back.png"
+    },
+    {
+      "id": "a197a7b1-e5c1-45fe-a281-5fbdc87e5f55",
+      "name": "Stop Here For Peds Right",
+      "type": "usefull_law",
+      "front": "peds_right_horizontal_stop.png",
+      "back": "default_horiz_back.png"
+    },
+    {
+      "id": "210bc973-59fc-44ce-ac3d-3d915d6eb1a0",
+      "name": "State Law Stop For Peds In CrossWalk",
+      "type": "usefull_law",
+      "front": "peds_yellow_inroad_stop.png",
+      "back": "peds_inroad_back.png"
+    },
+    {
+      "id": "991bdaf4-c15b-4845-9ef8-d4e94848d997",
+      "name": "State Law Stop For Peds In CrossWalk (School)",
+      "type": "usefull_law",
+      "front": "peds_yelgrn_inroad_stop.png",
+      "back": "peds_inroad_back.png"
+    },
+
+    {
+      "id": "d72e65cf-aec5-4105-b945-3001f1754076",
+      "name": "State Law Yield To Peds In CrossWalk",
+      "type": "usefull_law",
+      "front": "peds_yellow_inroad_yield.png",
+      "back": "peds_inroad_back.png"
+    },
+    {
+      "id": "7934310e-8e60-4ba1-8dfd-65a13d98a613",
+      "name": "State Law Yield To Peds In CrossWalk (School)",
+      "type": "usefull_law",
+      "front": "peds_yelgrn_inroad_yield.png",
+      "back": "peds_inroad_back.png"
+    },
+
+    {
+      "id": "73f53cce-d198-4745-905d-a288a7363068",
+      "name": "Yield Here To Peds Right",
+      "type": "usefull_law",
+      "front": "peds_right_horizontal_yield.png",
+      "back": "default_horiz_back.png"
+    },
+    {
+      "id": "bce09e51-dc49-4459-9945-c302d2ab1900",
+      "name": "Keep Right Except To Pass (State Law)",
+      "type": "usefull_law",
+      "front": "statelaw.png",
+      "back": "statelaw_back.png"
+    },
+    {
+      "id": "3d09f304-b0f2-4181-b8e5-3323af211d63",
+      "name": "Right Only or Right Straight",
+      "type": "usefull_road",
+      "front": "right_only_or_right_straight.png",
+      "back": "duble_signs.png"
+    },
+    {
       "id": "00440114-dd32-4d99-a666-788a0cec0c06",
       "name": "Left Or Right",
       "type": "usefull_road",
