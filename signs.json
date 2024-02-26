@@ -35,6 +35,13 @@
       ]
     },
     {
+      "id": "1068a11b-c883-4e2f-ad51-53a16ebd57d8",
+      "name": "Slower Traffic Keep Right (State Law)",
+      "type": "usefull_law",
+      "front": "statelawy.png",
+      "back": "statelawy_back.png"
+    },
+    {
       "id": "65096c52-7f32-44ad-b204-c39efa418d33",
       "name": "Stop Sign",
       "type": "usefull_road",
