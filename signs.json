@@ -10,7 +10,8 @@
     "usefull_warn": "Warning Signs",
     "usefull_law": "Law Sign",
     "usefull_shield": "Shields",
-    "usefull_markers": "Markers"
+    "usefull_markers": "Markers",
+    "usefull_covers": "Covers"
   },
   "signs": [
     {
@@ -42,6 +43,113 @@
       "back": "statelawy_back.png"
     },
     {
+      "id": "a0c3c0fe-358b-4bdb-8a03-5139e45382ef",
+      "name": "Exit Closed",
+      "type": "usefull_construction",
+      "front": "exit_closed.png",
+      "back": "default_square_back.png"
+    },
+    {
+      "id": "304d8c12-ffdc-49f5-b470-6f5ffc7f7b13",
+      "name": "No Acceleration Lane",
+      "type": "usefull_construction",
+      "front": "no_acceleration_lane.png",
+      "back": "leftlaneclosedcback.png"
+    },
+    {
+      "id": "241a4d0a-4095-4f55-b590-d626e67215fb",
+      "name": "No Merge Area (Yellow)",
+      "type": "usefull_other",
+      "front": "no_merge_area_yellow.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "6b195b14-f2cb-40aa-9ed4-9936db7a2ec2",
+      "name": "No Merge Area (Orange)",
+      "type": "usefull_construction",
+      "front": "no_merge_area_orange.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "b3cfa250-99d5-4c71-b49e-6c4c6aee8290",
+      "name": "Circle Covered",
+      "type": "usefull_covers",
+      "front": "covered_circle.png",
+      "back": "covered_circ_back.png"
+    },
+    {
+      "id": "98e7d665-4749-47b7-9720-7d5c51f5b94c",
+      "name": "Detour",
+      "type": "usefull_construction",
+      "front": "detour_plaque.png",
+      "back": "low_plaque_large_back.png",
+      "halfheight": true
+    },
+    {
+      "id": "2183b6ad-1395-40ac-aeaa-b3df23f2abe0",
+      "name": "Plaque High Covered",
+      "type": "usefull_covers",
+      "front": "covered_plaque_bottom_large.png",
+      "back": "covered_plaque_back_high_large.png"
+    },
+    {
+      "id": "8b1e2317-8c8b-40c9-9330-33e44ded4745",
+      "name": "Plaque Low Covered",
+      "type": "usefull_covers",
+      "halfheight": true,
+      "front": "covered_plaque_top_large.png",
+      "back": "covered_plaque_back_low_large.png"
+    },
+    {
+      "id": "ef577fd9-3b76-40cd-88a4-866dca4682bc",
+      "name": "Emergency And Authorized Cars Only",
+      "type": "usefull_law",
+      "front": "eaavo.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "6175d16a-ce5a-42e3-bb01-40219a787b60",
+      "name": "Diamond Covered",
+      "type": "usefull_covers",
+      "front": "covered_diamond.png",
+      "back": "covered_diamond_back.png"
+    },
+    {
+      "id": "c1c6ed9c-035e-451e-afd2-99537d38aeb0",
+      "name": "Rectangle Covered",
+      "type": "usefull_covers",
+      "front": "covered_rectangle.png",
+      "back": "covered_rect_back.png"
+    },
+    {
+      "id": "89fb3a2f-2d48-4a43-9050-8bbc89c4742a",
+      "name": "Square Covered",
+      "type": "usefull_covers",
+      "front": "covered_square.png",
+      "back": "covered_square_back.png"
+    },
+    {
+      "id": "5de32560-5254-4975-ac49-07402be5f7bc",
+      "name": "Stop Covered",
+      "type": "usefull_covers",
+      "front": "covered_stop.png",
+      "back": "covered_stop_back.png"
+    },
+    {
+      "id": "5a856d44-8de6-463f-ad43-7b4f2b985415",
+      "name": "Triangle Covered",
+      "type": "usefull_covers",
+      "front": "covered_triangle.png",
+      "back": "covered_tri_back.png"
+    },
+    {
+      "id": "f4e17db4-f1f2-40ea-9266-d5da4a2ecab3",
+      "name": "Yield Covered",
+      "type": "usefull_covers",
+      "front": "covered_yield.png",
+      "back": "covered_yield_back.png"
+    },
+    {
       "id": "65096c52-7f32-44ad-b204-c39efa418d33",
       "name": "Stop Sign",
       "type": "usefull_road",
@@ -61,6 +169,180 @@
           "color": 16777215
         }
       ]
+    },
+    {
+      "id": "0563a68c-e440-45bc-8d4e-6745be19d041",
+      "name": "Max Work Zone",
+      "type": "usefull_construction",
+      "front": "max_work_zone_penalties_guide.png",
+      "back": "cback.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 9.8,
+          "y": 7.3,
+          "width": 5,
+          "maxlength": 5,
+          "xscale": 2,
+          "yscale": 2,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "Text",
+          "x": 10.5,
+          "y": 11.4,
+          "width": 8,
+          "maxlength": 8,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "06a1f76a-0ea7-4532-adc1-bfcee06edd00",
+      "name": "Work Zone Speed Change Ahead",
+      "type": "usefull_construction",
+      "front": "construction_speed_limit_ahead.png",
+      "back": "leftlaneclosedcback.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 7.8,
+          "y": 9.8,
+          "width": 3,
+          "maxlength": 3,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "c6446eda-ab02-41b2-86a2-28ba0b3d1ee2",
+      "name": "Speed Change Ahead",
+      "type": "usefull_other",
+      "front": "speed_limit_ahead.png",
+      "back": "leftlaneclosedcback.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 7.8,
+          "y": 9.8,
+          "width": 3,
+          "maxlength": 3,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "1f05b49f-586d-407a-bf3b-1dd250a45aaf",
+      "name": "Bridge Hight",
+      "type": "usefull_other",
+      "front": "bridge_hight_sign.png",
+      "back": "leftlaneclosedcback.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 7.5,
+          "y": 7.5,
+          "width": 10,
+          "maxlength": 10,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "2fe574c8-d6d9-4ec8-adb5-21fdb572c3aa",
+      "name": "Speed Change Ahead School Zone",
+      "type": "usefull_other",
+      "front": "speed_limit_ahead_school.png",
+      "back": "leftlaneclosedcback.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 7.8,
+          "y": 9.8,
+          "width": 3,
+          "maxlength": 3,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "b349f5bc-9407-4f5c-a707-69454819d104",
+      "name": "End Road Work",
+      "type": "usefull_construction",
+      "front": "end_road_work.png",
+      "back": "high_plaque_large_back.png"
+    },
+    {
+      "id": "d1ffacad-8ba2-4d9d-82c5-e5a338f699de",
+      "name": "Let them work let them live",
+      "type": "usefull_construction",
+      "front": "let_em_work_let_em_live.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "6e5f74e4-dc7b-4162-86fc-ef6134f49d50",
+      "name": "Work Zone Headlights",
+      "type": "usefull_construction",
+      "front": "active_work_zone_when_flashing.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "6732f0ea-9c51-44b8-aae2-8d6dec0507b2",
+      "name": "Work Zone Active when flashing",
+      "type": "usefull_construction",
+      "front": "work_zone_turn_on_headlights.png",
+      "back": "cback.png"
+    },
+    {
+      "id": "72274a1f-7cce-40fc-a5e4-dfb9c15c87de",
+      "name": "Road Work Next ## Miles Or Feet",
+      "type": "usefull_construction",
+      "front": "road_work_next_xx_distance.png",
+      "back": "high_plaque_large_back.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 11,
+          "y": 5.3,
+          "width": 9,
+          "maxlength": 9,
+          "xscale": 2,
+          "yscale": 2,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "0aa78cd1-bc8c-4d18-97b3-6991cbb9afa8",
+      "name": "Fines Doubled",
+      "type": "usefull_construction",
+      "front": "fines_are_doubled_in_work_zone.png",
+      "back": "cback.png"
+      
     },
     {
       "id": "f24f04aa-c37a-46b4-9d66-287e27737814",
@@ -532,7 +814,7 @@
     },
     {
       "id": "571095b1-ef7b-4b93-93a6-6120bb0394b0",
-      "name": "Warnning Sign Square",
+      "name": "Warnning Sign Square (4 Lines)",
       "type": "usefull_warn",
       "front": "warns.png",
       "back": "warnsback.png",
@@ -589,6 +871,53 @@
     },
 
     {
+      "id": "d2f4844a-32db-467c-badc-7f30dbcb5d36",
+      "name": "Warnning Sign Square (3 lines)",
+      "type": "usefull_warn",
+      "front": "warns.png",
+      "back": "warnsback.png",
+      "textlines": [
+        {
+          "label": "line 1",
+          "x": 8,
+          "y": 6,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 2",
+          "x": 8,
+          "y": 8,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 3",
+          "x": 8,
+          "y": 10,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+        
+      ]
+    },
+
+    {
       "id": "07016590-8cef-405d-b3b4-a8964d6b81ec",
       "name": "Construction Do not enter",
       "type": "usefull_construction",
@@ -598,7 +927,7 @@
 
     {
       "id": "abb9f5a7-b8d8-427a-b0e3-55e3d52eea6f",
-      "name": "Warning Sign Yellow",
+      "name": "Warning Sign Yellow (4 Lines)",
       "type": "usefull_warn",
       "front": "diamond_blank_yellow.png",
       "back": "defualt_diamond_back.png",
@@ -654,8 +983,54 @@
       ]
     },
     {
+      "id": "e06adf4c-da2b-4402-9ed9-2a917b1037b2",
+      "name": "Warning Sign Yellow (3 Lines)",
+      "type": "usefull_warn",
+      "front": "diamond_blank_yellow.png",
+      "back": "defualt_diamond_back.png",
+      "textlines": [
+        {
+          "label": "line 1",
+          "x": 8,
+          "y": 6,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 2",
+          "x": 8,
+          "y": 8,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 3",
+          "x": 8,
+          "y": 10,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+        
+      ]
+    },
+    {
       "id": "8f249527-c021-47c0-9d3a-8d1c7beaee78",
-      "name": "Warning Sign Lemon Lime",
+      "name": "Warning Sign Lemon Lime (4 Lines)",
       "type": "usefull_warn",
       "front": "diamond_blank_lemonlime.png",
       "back": "defualt_diamond_back.png",
@@ -711,8 +1086,54 @@
       ]
     },
     {
+      "id": "a315f93c-e57c-4914-bd08-6d4cd35acd75",
+      "name": "Warning Sign Lemon Lime (3 Lines)",
+      "type": "usefull_warn",
+      "front": "diamond_blank_lemonlime.png",
+      "back": "defualt_diamond_back.png",
+      "textlines": [
+        {
+          "label": "line 1",
+          "x": 8,
+          "y": 6,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 2",
+          "x": 8,
+          "y": 8,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 3",
+          "x": 8,
+          "y": 10,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+        
+      ]
+    },
+    {
       "id": "bf0abb2e-787a-420d-a630-9d3abd3ced4b",
-      "name": "Warning Sign Orange",
+      "name": "Warning Sign Orange (4 Lines)",
       "type": "usefull_warn",
       "front": "diamond_blank_orange.png",
       "back": "defualt_diamond_back.png",
@@ -768,8 +1189,54 @@
       ]
     },
     {
+      "id": "e81b25f7-526e-4be1-a60a-aac44d37c68e",
+      "name": "Warning Sign Orange (3 Lines)",
+      "type": "usefull_warn",
+      "front": "diamond_blank_orange.png",
+      "back": "defualt_diamond_back.png",
+      "textlines": [
+        {
+          "label": "line 1",
+          "x": 8,
+          "y": 6,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 2",
+          "x": 8,
+          "y": 8,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 3",
+          "x": 8,
+          "y": 10,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+        
+      ]
+    },
+    {
       "id": "2b07bfed-cad3-44fc-9cab-d445a80d58f2",
-      "name": "Warning Sign Pink",
+      "name": "Warning Sign Pink (4 Lines)",
       "type": "usefull_warn",
       "front": "diamond_blank_pink.png",
       "back": "defualt_diamond_back.png",
@@ -822,6 +1289,52 @@
           "valign": "center",
           "color": 0
         }
+      ]
+    },
+    {
+      "id": "ae01b872-2398-4adb-83af-16b4445a532d",
+      "name": "Warning Sign Pink (3 Lines)",
+      "type": "usefull_warn",
+      "front": "diamond_blank_pink.png",
+      "back": "defualt_diamond_back.png",
+      "textlines": [
+        {
+          "label": "line 1",
+          "x": 8,
+          "y": 6,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 2",
+          "x": 8,
+          "y": 8,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "line 3",
+          "x": 8,
+          "y": 10,
+          "width": 20,
+          "maxlength": 20,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+        
       ]
     },
 
@@ -1013,6 +1526,83 @@
       ]
     },
     {
+      "id": "f8a319b5-a40e-4be1-a6e4-b3c9e4e5cca2",
+      "name": "Double Plaque Orange",
+      "type": "usefull_construction",
+      "front": "double_plaque_oo_large.png",
+      "back": "double_plaque_large_back.png",
+      "textlines": [
+        {
+          "label": "Top Text",
+          "x": 8,
+          "y": 4,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "Bottom Text",
+          "x": 8,
+          "y": 12.5,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "1ac96052-dd43-4093-87dd-f2551d044ec1",
+      "name": "Double Plaque Detour White Buttom",
+      "type": "usefull_construction",
+      "front": "detour_with_plaque.png",
+      "back": "double_plaque_large_back.png",
+      "textlines": [
+        
+        {
+          "label": "Bottom Text",
+          "x": 8,
+          "y": 12.5,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "560887ba-203e-4b03-8e54-19196fe87932",
+      "name": "Double Plaque Detour Orange Buttom",
+      "type": "usefull_construction",
+      "front": "detour_with_plaque_orange.png",
+      "back": "double_plaque_large_back.png",
+      "textlines": [
+        
+        {
+          "label": "Bottom Text",
+          "x": 8,
+          "y": 12.5,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
       "id": "fbed6585-f10a-458f-b65b-5e6746024d2c",
       "name": "Top Plaque",
       "type": "usefull_other",
@@ -1035,11 +1625,54 @@
       ]
     },
     {
+      "id": "a857f161-dd4b-4a03-b897-242952a3ec0d",
+      "name": "Top Plaque Orange",
+      "type": "usefull_construction",
+      "front": "plaque_top_large_orange.png",
+      "back": "low_plaque_large_back.png",
+      "halfheight": true,
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 8,
+          "y": 12.5,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
       "id": "2d51a540-9bff-4d0d-8e1b-9748b4579a9c",
       "name": "Bottom Plaque",
       "type": "usefull_other",
       "front": "plaque_bottom.png",
       "back": "plaque_back_high.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 8,
+          "y": 4,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "3de3fdcd-d932-4f14-addb-2691f6b240ac",
+      "name": "Bottom Plaque",
+      "type": "usefull_construction",
+      "front": "plaque_bottom_large_orange.png",
+      "back": "high_plaque_large_back.png",
       "textlines": [
         {
           "label": "Text",
