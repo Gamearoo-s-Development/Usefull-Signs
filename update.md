@@ -6,7 +6,12 @@ wiki - https://github.com/Gamearoo-s-Development/Usefull-Signs/wiki
 
 Adds some construction signs and other suggested signs
 
-Total of 120 Signs
+
+INTRODUCES MULTIBLOCK SIGNS
+
+Total of 126 Total Sign Blocks (124 Main signs) (2 Multi-block sign)
+
+
 
 A Bunch of changes full notes on githubs release changelogs
 

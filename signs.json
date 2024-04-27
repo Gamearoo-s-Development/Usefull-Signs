@@ -39,8 +39,8 @@
       "id": "1068a11b-c883-4e2f-ad51-53a16ebd57d8",
       "name": "Slower Traffic Keep Right (State Law)",
       "type": "usefull_law",
-      "front": "statelawy.png",
-      "back": "statelawy_back.png"
+      "front": "slower_traffic_keep_right.png",
+      "back": "default_rectangle_back.png"
     },
     {
       "id": "a0c3c0fe-358b-4bdb-8a03-5139e45382ef",
@@ -287,6 +287,7 @@
         }
       ]
     },
+    
     {
       "id": "b349f5bc-9407-4f5c-a707-69454819d104",
       "name": "End Road Work",
@@ -525,8 +526,8 @@
       "id": "bce09e51-dc49-4459-9945-c302d2ab1900",
       "name": "Keep Right Except To Pass (State Law)",
       "type": "usefull_law",
-      "front": "statelaw.png",
-      "back": "statelaw_back.png"
+      "front": "keep_right_except_to_pass.png",
+      "back": "default_rectangle_back.png"
     },
     {
       "id": "3d09f304-b0f2-4181-b8e5-3323af211d63",
@@ -1472,6 +1473,35 @@
       ]
     },
     {
+      "id": "b630b489-6ae6-4d76-80c1-2de3081dfc27",
+      "name": "School Speed (Top)",
+      "type": "usefull_law",
+      "front": "big_school_speed_limit_top.png",
+      "back": "big_speed_limit_top_back.png",
+      "textlines": [
+        {
+          "label": "Speed",
+          "x": 8,
+          "y": 13.2,
+          "width": 7,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "ddda6304-efd5-4457-9357-2f7ce9d21f53",
+      "name": "School Speed (Buttom)",
+      "type": "usefull_law",
+      "front": "big_school_speed_limit_bottom.png",
+      "back": "big_school_speed_limit_bottom_back.png"
+      
+    },
+    {
       "id": "af5204eb-a0ba-40ce-92f6-adf02faf5b39",
       "name": "Speed Limit Revamped",
       "type": "usefull_law",
@@ -1489,6 +1519,90 @@
           "halign": "center",
           "valign": "center",
           "color": 0
+        }
+      ]
+    },
+    {
+      "id": "f94eec25-1d41-425f-9360-d9069bf8bc08",
+      "name": "Speed Limit (Interstate Top)",
+      "type": "usefull_law",
+      "front": "big_speed_limit_top.png",
+      "back": "big_speed_limit_top_back.png",
+      "textlines": [
+        {
+          "label": "Speed",
+          "x": 8,
+          "y": 12,
+          "width": 7,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "23073897-ed54-4184-be32-574132c08ecb",
+      "name": "Speed Limit Min (Interstate Buttom)",
+      "type": "usefull_law",
+      "front": "big_speed_limit_bottom_minimum.png",
+      "back": "big_speed_limit_bottom_back.png",
+      "textlines": [
+        {
+          "label": "Speed",
+          "x": 8,
+          "y": 6,
+          "width": 7,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "47dc2d3d-1ba2-441e-9a70-15a85a2007b4",
+      "name": "Speed Limit Trucks (Interstate Buttom)",
+      "type": "usefull_law",
+      "front": "big_speed_limit_bottom_trucks.png",
+      "back": "big_speed_limit_bottom_back.png",
+      "textlines": [
+        {
+          "label": "Speed",
+          "x": 8,
+          "y": 6,
+          "width": 7,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "1aeca85b-6a01-4fe4-8fef-37bb60a6a032",
+      "name": "Speed Limit Night (Interstate Buttom)",
+      "type": "usefull_law",
+      "front": "big_speed_limit_bottom_night.png",
+      "back": "big_speed_limit_bottom_back.png",
+      "textlines": [
+        {
+          "label": "Speed",
+          "x": 8,
+          "y": 6,
+          "width": 7,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 16777215
         }
       ]
     },
