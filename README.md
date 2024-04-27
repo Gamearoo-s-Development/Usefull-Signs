@@ -13,4 +13,5 @@ Serch using
 @usefull_warn - warning
 @usefull_law - law signs
 @usefull_shield - shields
+@usefull_covers - covers
 @usefull - all signs in this pack
