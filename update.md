@@ -1,24 +1,22 @@
 UPDATE:
-V7
-https://github.com/Gamearoo-s-Development/Usefull-Signs/releases/tag/v7.0
-https://www.curseforge.com/minecraft/mc-addons/usefull-signs
+V8
+https://github.com/Gamearoo-s-Development/Usefull-Signs/releases/tag/v8.0
+
 wiki - https://github.com/Gamearoo-s-Development/Usefull-Signs/wiki
 
-Adds some construction signs and other suggested signs
 
+adds 119 Signs
 
-INTRODUCES MULTIBLOCK SIGNS
-
-Total of 126 Total Sign Blocks (124 Main signs) (2 Multi-block sign)
+Total of 245 Total Sign Blocks (142 Main signs) (18 MultiBlock-other) (34 Multi-block tops) (14 Multi-block middles) (37 multi block bottoms)
 
 
 
 A Bunch of changes full notes on githubs release changelogs
 
-move suggestions & Issues to https://discordapp.com/channels/541808000537591821/1211730819618570240 or https://github.com/Gamearoo-s-Development/Usefull-Signs/issues
+move suggestions & Issues to ⁠Usefull Signs (Requests) or https://github.com/Gamearoo-s-Development/Usefull-Signs/issues
 
-![image](./update.png)
+
 
 Credits:
-@gamearoo - Owner/Editor/Design
-@the_epicness9000 - Design
+@Gamearoo - Owner/Editor/Design
+@The_Epicness9000 - Design 

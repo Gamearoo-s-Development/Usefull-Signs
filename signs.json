@@ -11,7 +11,8 @@
     "usefull_law": "Law Sign",
     "usefull_shield": "Shields",
     "usefull_markers": "Markers",
-    "usefull_covers": "Covers"
+    "usefull_covers": "Covers",
+    "usefull_huge": "Huge Multiblock Signs"
   },
   "signs": [
     {
@@ -36,10 +37,38 @@
       ]
     },
     {
+      "id": "3f8c7a13-0464-4569-af74-d24c93637999",
+      "name": "US Route Shield",
+      "type": "usefull_shield",
+      "front": "us.png",
+      "back": "usback.png",
+      "textlines": [
+        {
+          "label": "US Route Number",
+          "x": 8,
+          "y": 8,
+          "width": 13.6,
+          "maxlength": 3,
+          "xscale": 8,
+          "yscale": 8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
       "id": "1068a11b-c883-4e2f-ad51-53a16ebd57d8",
       "name": "Slower Traffic Keep Right (State Law)",
       "type": "usefull_law",
       "front": "slower_traffic_keep_right.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "bce09e51-dc49-4459-9945-c302d2ab1900",
+      "name": "Keep Right Except To Pass (State Law)",
+      "type": "usefull_law",
+      "front": "keep_right_except_to_pass.png",
       "back": "default_rectangle_back.png"
     },
     {
@@ -50,11 +79,261 @@
       "back": "default_square_back.png"
     },
     {
+      "id": "6b195b14-f2cb-40aa-9ed4-9936db7a2ec2",
+      "name": "No Merge Area (Orange)",
+      "type": "usefull_construction",
+      "front": "no_merge_area_orange.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "98e7d665-4749-47b7-9720-7d5c51f5b94c",
+      "name": "Detour",
+      "type": "usefull_construction",
+      "front": "detour_plaque.png",
+      "back": "low_plaque_large_back.png",
+      "halfheight": true
+    },
+    {
+      "id": "6e5f74e4-dc7b-4162-86fc-ef6134f49d50",
+      "name": "Work Zone Headlights",
+      "type": "usefull_construction",
+      "front": "active_work_zone_when_flashing.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "a857f161-dd4b-4a03-b897-242952a3ec0d",
+      "name": "Top Plaque Orange",
+      "type": "usefull_construction",
+      "front": "plaque_top_large_orange.png",
+      "back": "low_plaque_large_back.png",
+      "halfheight": true,
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 8,
+          "y": 12.5,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "0563a68c-e440-45bc-8d4e-6745be19d041",
+      "name": "Max Work Zone",
+      "type": "usefull_construction",
+      "front": "max_work_zone_penalties_guide.png",
+      "back": "cback.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 9.8,
+          "y": 7.3,
+          "width": 5,
+          "maxlength": 5,
+          "xscale": 2,
+          "yscale": 2,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "Text",
+          "x": 10.5,
+          "y": 11.4,
+          "width": 8,
+          "maxlength": 8,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "d1ffacad-8ba2-4d9d-82c5-e5a338f699de",
+      "name": "Let them work let them live",
+      "type": "usefull_construction",
+      "front": "let_em_work_let_em_live.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "f8a319b5-a40e-4be1-a6e4-b3c9e4e5cca2",
+      "name": "Double Plaque Orange",
+      "type": "usefull_construction",
+      "front": "double_plaque_oo_large.png",
+      "back": "double_plaque_large_back.png",
+      "textlines": [
+        {
+          "label": "Top Text",
+          "x": 8,
+          "y": 4,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "Bottom Text",
+          "x": 8,
+          "y": 12.5,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "560887ba-203e-4b03-8e54-19196fe87932",
+      "name": "Double Plaque Detour Orange Buttom",
+      "type": "usefull_construction",
+      "front": "detour_with_plaque_orange.png",
+      "back": "double_plaque_large_back.png",
+      "textlines": [
+        {
+          "label": "Bottom Text",
+          "x": 8,
+          "y": 12.5,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "1ac96052-dd43-4093-87dd-f2551d044ec1",
+      "name": "Double Plaque Detour White Buttom",
+      "type": "usefull_construction",
+      "front": "detour_with_plaque.png",
+      "back": "double_plaque_large_back.png",
+      "textlines": [
+        {
+          "label": "Bottom Text",
+          "x": 8,
+          "y": 12.5,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "3de3fdcd-d932-4f14-addb-2691f6b240ac",
+      "name": "Bottom Plaque",
+      "type": "usefull_construction",
+      "front": "plaque_bottom_large_orange.png",
+      "back": "high_plaque_large_back.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 8,
+          "y": 4,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "8907e0bc-e06b-4330-9a61-64f410f5921a",
+      "name": "Lane Closed Ahead",
+      "type": "usefull_construction",
+      "front": "leftlaneclosedc.png",
+      "back": "leftlaneclosedcback.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 5.5,
+          "y": 6.5,
+          "width": 5,
+          "maxlength": 10,
+          "xscale": 1.8,
+          "yscale": 1.8,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "6732f0ea-9c51-44b8-aae2-8d6dec0507b2",
+      "name": "Work Zone Active when flashing",
+      "type": "usefull_construction",
+      "front": "work_zone_turn_on_headlights.png",
+      "back": "cback.png"
+    },
+    {
+      "id": "72274a1f-7cce-40fc-a5e4-dfb9c15c87de",
+      "name": "Road Work Next ## Miles Or Feet",
+      "type": "usefull_construction",
+      "front": "road_work_next_xx_distance.png",
+      "back": "high_plaque_large_back.png",
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 11,
+          "y": 5.3,
+          "width": 9,
+          "maxlength": 9,
+          "xscale": 2,
+          "yscale": 2,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "0aa78cd1-bc8c-4d18-97b3-6991cbb9afa8",
+      "name": "Fines Doubled",
+      "type": "usefull_construction",
+      "front": "fines_are_doubled_in_work_zone.png",
+      "back": "cback.png"
+    },
+    {
+      "id": "b349f5bc-9407-4f5c-a707-69454819d104",
+      "name": "End Road Work",
+      "type": "usefull_construction",
+      "front": "end_road_work.png",
+      "back": "high_plaque_large_back.png"
+    },
+    {
       "id": "304d8c12-ffdc-49f5-b470-6f5ffc7f7b13",
       "name": "No Acceleration Lane",
       "type": "usefull_construction",
       "front": "no_acceleration_lane.png",
       "back": "leftlaneclosedcback.png"
+    },
+    {
+      "id": "07016590-8cef-405d-b3b4-a8964d6b81ec",
+      "name": "Construction Do not enter",
+      "type": "usefull_construction",
+      "front": "cfront.png",
+      "back": "cback.png"
     },
     {
       "id": "241a4d0a-4095-4f55-b590-d626e67215fb",
@@ -64,26 +343,18 @@
       "back": "default_rectangle_back.png"
     },
     {
-      "id": "6b195b14-f2cb-40aa-9ed4-9936db7a2ec2",
-      "name": "No Merge Area (Orange)",
-      "type": "usefull_construction",
-      "front": "no_merge_area_orange.png",
+      "id": "ef577fd9-3b76-40cd-88a4-866dca4682bc",
+      "name": "Emergency And Authorized Cars Only",
+      "type": "usefull_law",
+      "front": "eaavo.png",
       "back": "default_rectangle_back.png"
     },
     {
-      "id": "b3cfa250-99d5-4c71-b49e-6c4c6aee8290",
-      "name": "Circle Covered",
+      "id": "6175d16a-ce5a-42e3-bb01-40219a787b60",
+      "name": "Diamond Covered",
       "type": "usefull_covers",
-      "front": "covered_circle.png",
-      "back": "covered_circ_back.png"
-    },
-    {
-      "id": "98e7d665-4749-47b7-9720-7d5c51f5b94c",
-      "name": "Detour",
-      "type": "usefull_construction",
-      "front": "detour_plaque.png",
-      "back": "low_plaque_large_back.png",
-      "halfheight": true
+      "front": "covered_diamond.png",
+      "back": "covered_diamond_back.png"
     },
     {
       "id": "2183b6ad-1395-40ac-aeaa-b3df23f2abe0",
@@ -101,18 +372,11 @@
       "back": "covered_plaque_back_low_large.png"
     },
     {
-      "id": "ef577fd9-3b76-40cd-88a4-866dca4682bc",
-      "name": "Emergency And Authorized Cars Only",
-      "type": "usefull_law",
-      "front": "eaavo.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "6175d16a-ce5a-42e3-bb01-40219a787b60",
-      "name": "Diamond Covered",
+      "id": "b3cfa250-99d5-4c71-b49e-6c4c6aee8290",
+      "name": "Circle Covered",
       "type": "usefull_covers",
-      "front": "covered_diamond.png",
-      "back": "covered_diamond_back.png"
+      "front": "covered_circle.png",
+      "back": "covered_circ_back.png"
     },
     {
       "id": "c1c6ed9c-035e-451e-afd2-99537d38aeb0",
@@ -171,32 +435,20 @@
       ]
     },
     {
-      "id": "0563a68c-e440-45bc-8d4e-6745be19d041",
-      "name": "Max Work Zone",
-      "type": "usefull_construction",
-      "front": "max_work_zone_penalties_guide.png",
-      "back": "cback.png",
+      "id": "c6446eda-ab02-41b2-86a2-28ba0b3d1ee2",
+      "name": "Speed Change Ahead",
+      "type": "usefull_other",
+      "front": "speed_limit_ahead.png",
+      "back": "leftlaneclosedcback.png",
       "textlines": [
         {
           "label": "Text",
-          "x": 9.8,
-          "y": 7.3,
-          "width": 5,
-          "maxlength": 5,
-          "xscale": 2,
-          "yscale": 2,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        },
-        {
-          "label": "Text",
-          "x": 10.5,
-          "y": 11.4,
-          "width": 8,
-          "maxlength": 8,
-          "xscale": 1.8,
-          "yscale": 1.8,
+          "x": 7.8,
+          "y": 9.8,
+          "width": 3,
+          "maxlength": 3,
+          "xscale": 3,
+          "yscale": 3,
           "halign": "center",
           "valign": "center",
           "color": 0
@@ -225,10 +477,10 @@
       ]
     },
     {
-      "id": "c6446eda-ab02-41b2-86a2-28ba0b3d1ee2",
-      "name": "Speed Change Ahead",
+      "id": "2fe574c8-d6d9-4ec8-adb5-21fdb572c3aa",
+      "name": "Speed Change Ahead School Zone",
       "type": "usefull_other",
-      "front": "speed_limit_ahead.png",
+      "front": "speed_limit_ahead_school.png",
       "back": "leftlaneclosedcback.png",
       "textlines": [
         {
@@ -267,18 +519,41 @@
       ]
     },
     {
-      "id": "2fe574c8-d6d9-4ec8-adb5-21fdb572c3aa",
-      "name": "Speed Change Ahead School Zone",
-      "type": "usefull_other",
-      "front": "speed_limit_ahead_school.png",
-      "back": "leftlaneclosedcback.png",
+      "id": "dacacc6d-7da6-4448-92e6-7462e8eb7281",
+      "name": "Low clearance construction",
+      "type": "usefull_construction",
+      "front": "low_clearance_construction_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
       "textlines": [
         {
-          "label": "Text",
-          "x": 7.8,
-          "y": 9.8,
-          "width": 3,
-          "maxlength": 3,
+          "label": "text",
+          "x": 8,
+          "y": 8.2,
+          "width": 20,
+          "maxlength": 6,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "1c55add4-db3a-45c0-a58a-c963b93656d9",
+      "name": "Narrow clearance",
+      "type": "usefull_warn",
+      "front": "narrow_clearance_front.png",
+      "back": "narrow_clearance_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "text",
+          "x": 7.9,
+          "y": 8.2,
+          "width": 8,
+          "maxlength": 6,
           "xscale": 3,
           "yscale": 3,
           "halign": "center",
@@ -287,63 +562,27 @@
         }
       ]
     },
-    
     {
-      "id": "b349f5bc-9407-4f5c-a707-69454819d104",
-      "name": "End Road Work",
+      "id": "3af59150-b371-46ee-80c6-8364e6d4c767",
+      "name": "Narrow clearance construction",
       "type": "usefull_construction",
-      "front": "end_road_work.png",
-      "back": "high_plaque_large_back.png"
-    },
-    {
-      "id": "d1ffacad-8ba2-4d9d-82c5-e5a338f699de",
-      "name": "Let them work let them live",
-      "type": "usefull_construction",
-      "front": "let_em_work_let_em_live.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "6e5f74e4-dc7b-4162-86fc-ef6134f49d50",
-      "name": "Work Zone Headlights",
-      "type": "usefull_construction",
-      "front": "active_work_zone_when_flashing.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "6732f0ea-9c51-44b8-aae2-8d6dec0507b2",
-      "name": "Work Zone Active when flashing",
-      "type": "usefull_construction",
-      "front": "work_zone_turn_on_headlights.png",
-      "back": "cback.png"
-    },
-    {
-      "id": "72274a1f-7cce-40fc-a5e4-dfb9c15c87de",
-      "name": "Road Work Next ## Miles Or Feet",
-      "type": "usefull_construction",
-      "front": "road_work_next_xx_distance.png",
-      "back": "high_plaque_large_back.png",
+      "front": "narrow_clearance_construction_front.png",
+      "back": "stopwhenflashback.png",
+      "halfheight": false,
       "textlines": [
         {
-          "label": "Text",
-          "x": 11,
-          "y": 5.3,
-          "width": 9,
-          "maxlength": 9,
-          "xscale": 2,
-          "yscale": 2,
+          "label": "text",
+          "x": 8,
+          "y": 8.2,
+          "width": 8,
+          "maxlength": 6,
+          "xscale": 3,
+          "yscale": 3,
           "halign": "center",
           "valign": "center",
           "color": 0
         }
       ]
-    },
-    {
-      "id": "0aa78cd1-bc8c-4d18-97b3-6991cbb9afa8",
-      "name": "Fines Doubled",
-      "type": "usefull_construction",
-      "front": "fines_are_doubled_in_work_zone.png",
-      "back": "cback.png"
-      
     },
     {
       "id": "f24f04aa-c37a-46b4-9d66-287e27737814",
@@ -409,6 +648,66 @@
       ]
     },
     {
+      "id": "ec9bb957-dbd3-44d9-97d6-407d0ad802d5",
+      "name": "accessibility_free_of_charge",
+      "type": "usefull_parking",
+      "front": "accessibility_free_of_charge.png",
+      "back": "accessibility_free_of_charge_back.png"
+    },
+    {
+      "id": "c6958e59-479a-4a98-aa1e-47c4476839ad",
+      "name": "Parking Payment",
+      "type": "usefull_parking",
+      "front": "park.png",
+      "back": "parkback.png"
+    },
+    {
+      "id": "5f59b928-9fcb-4885-b173-0e959059d1f8",
+      "name": "Parking Closed",
+      "type": "usefull_parking",
+      "front": "lotclosed.png",
+      "back": "lotclosedback.png"
+    },
+    {
+      "id": "9db31d19-90e5-4df4-b11c-4b7ea4c2fc5b",
+      "name": "Event Parking Only",
+      "type": "usefull_parking",
+      "front": "eventp.png",
+      "back": "eventpback.png"
+    },
+    {
+      "id": "b6da0806-094f-41ef-a622-d1fa7659c37b",
+      "name": "paid_pking_ticket",
+      "type": "usefull_parking",
+      "front": "paid_pking_ticket.png",
+      "back": "newusefull_parkingback.png"
+    },
+    {
+      "id": "5e0b3e2d-2626-46e1-bc71-e068a8c4a97b",
+      "name": "free_parking_reminder",
+      "type": "usefull_parking",
+      "front": "free_parking_reminder.png",
+      "back": "newparkingback.png"
+    },
+    {
+      "id": "dd36add7-1335-4555-a2a5-2934a0509265",
+      "name": "Parking_PayNGo",
+      "type": "usefull_parking",
+      "front": "parking_payngo_front.png",
+      "back": "usefull_parking_back1.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "b3600b85-a02b-47d9-ba99-bc82c5564e54",
+      "name": "usefull_parking_event",
+      "type": "usefull_parking",
+      "front": "usefull_parking_event_front.png",
+      "back": "usefull_parking_back1.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
       "id": "be8acd72-543e-4929-9e45-987b2966502c",
       "name": "U-Turn Only",
       "type": "usefull_road",
@@ -416,31 +715,87 @@
       "back": "default_rectangle_back.png"
     },
     {
-      "id": "8ba47c3e-90f9-475b-867c-1c60e904f9dd",
-      "name": "Double Left Turn Only",
+      "id": "4ee2fb47-8626-4a24-a086-54fa1aff4615",
+      "name": "Straight or Left",
       "type": "usefull_road",
-      "front": "double_left_turn_only.png",
-      "back": "duble_signs.png"
+      "front": "straight_or_left.png",
+      "back": "default_rectangle_back.png"
     },
     {
-      "id": "08ba16a2-cd32-45d2-934f-5f86b0327482",
-      "name": "Double Right Turn Only",
+      "id": "6fc1d41f-c63b-453b-a1e7-bb314ac9e3e4",
+      "name": "Straight, Left Or Right",
       "type": "usefull_road",
-      "front": "double_right_turn_only.png",
-      "back": "duble_signs.png"
+      "front": "straight_left_or_right.png",
+      "back": "default_rectangle_back.png"
     },
     {
-      "id": "fa9283d5-1602-4c15-968c-4a029f78655c",
-      "name": "Double Slight Right Turn Only",
+      "id": "0766bfed-49f7-4eee-9b6e-29975cf0aa14",
+      "name": "Straight or Right",
       "type": "usefull_road",
-      "front": "double_slight_right_turn_only.png",
-      "back": "duble_signs.png"
+      "front": "straight_or_right.png",
+      "back": "default_rectangle_back.png"
     },
     {
-      "id": "e7147463-ab05-4cc6-9a12-e4566329d57a",
-      "name": "Double Slight Left Turn Only",
+      "id": "00440114-dd32-4d99-a666-788a0cec0c06",
+      "name": "Left Or Right",
       "type": "usefull_road",
-      "front": "double_slight-left_turn_only.png",
+      "front": "left_or_right.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "b030d215-a608-4971-a8dd-85066d0c2728",
+      "name": "Left Only",
+      "type": "usefull_road",
+      "front": "left_only.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "6f80d3c3-3005-46f8-9222-762436b5c550",
+      "name": "Straight Only",
+      "type": "usefull_road",
+      "front": "straight_only.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "3ff10592-5b58-4f05-ab75-4c873f0c79f8",
+      "name": "Right Only",
+      "type": "usefull_road",
+      "front": "right_only.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "499650d8-d982-40f2-9ec9-f7b3d7453703",
+      "name": "Slip Right Only",
+      "type": "usefull_road",
+      "front": "slip_right_only_edge.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "f0fd71fa-080d-48c7-9ac3-3264ee208cb1",
+      "name": "Left Or Slip Right",
+      "type": "usefull_road",
+      "front": "left_or_slip_right.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "01a7a75a-f8c2-408b-95d7-c12e607f1486",
+      "name": "Left, Straight or slip right",
+      "type": "usefull_road",
+      "front": "left_straight_or_slip_right.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "5d3abb6d-cf19-4060-bb85-04516a24c3d9",
+      "name": "Straight or slip right",
+      "type": "usefull_road",
+      "front": "straight_or_slip_right.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "5e6fd88c-7023-41dc-a2d3-5b2be2f647a9",
+      "name": "Left U-turn and Left Turn",
+      "type": "usefull_road",
+      "front": "left_u_and_left.png",
       "back": "duble_signs.png"
     },
     {
@@ -451,10 +806,17 @@
       "back": "duble_signs.png"
     },
     {
-      "id": "5e6fd88c-7023-41dc-a2d3-5b2be2f647a9",
-      "name": "Left U-turn and Left Turn",
+      "id": "3d09f304-b0f2-4181-b8e5-3323af211d63",
+      "name": "Right Only or Right Straight",
       "type": "usefull_road",
-      "front": "left_u_and_left.png",
+      "front": "right_only_or_right_straight.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "8ba47c3e-90f9-475b-867c-1c60e904f9dd",
+      "name": "Double Left Turn Only",
+      "type": "usefull_road",
+      "front": "double_left_turn_only.png",
       "back": "duble_signs.png"
     },
     {
@@ -462,6 +824,27 @@
       "name": "No U-Turn Double Left",
       "type": "usefull_road",
       "front": "no_u_turn_double_left.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "e7147463-ab05-4cc6-9a12-e4566329d57a",
+      "name": "Double Slight Left Turn Only",
+      "type": "usefull_road",
+      "front": "double_slight-left_turn_only.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "fa9283d5-1602-4c15-968c-4a029f78655c",
+      "name": "Double Slight Right Turn Only",
+      "type": "usefull_road",
+      "front": "double_slight_right_turn_only.png",
+      "back": "duble_signs.png"
+    },
+    {
+      "id": "08ba16a2-cd32-45d2-934f-5f86b0327482",
+      "name": "Double Right Turn Only",
+      "type": "usefull_road",
+      "front": "double_right_turn_only.png",
       "back": "duble_signs.png"
     },
     {
@@ -486,6 +869,13 @@
       "back": "default_horiz_back.png"
     },
     {
+      "id": "73f53cce-d198-4745-905d-a288a7363068",
+      "name": "Yield Here To Peds Right",
+      "type": "usefull_law",
+      "front": "peds_right_horizontal_yield.png",
+      "back": "default_horiz_back.png"
+    },
+    {
       "id": "210bc973-59fc-44ce-ac3d-3d915d6eb1a0",
       "name": "State Law Stop For Peds In CrossWalk",
       "type": "usefull_law",
@@ -499,7 +889,6 @@
       "front": "peds_yelgrn_inroad_stop.png",
       "back": "peds_inroad_back.png"
     },
-
     {
       "id": "d72e65cf-aec5-4105-b945-3001f1754076",
       "name": "State Law Yield To Peds In CrossWalk",
@@ -513,71 +902,6 @@
       "type": "usefull_law",
       "front": "peds_yelgrn_inroad_yield.png",
       "back": "peds_inroad_back.png"
-    },
-
-    {
-      "id": "73f53cce-d198-4745-905d-a288a7363068",
-      "name": "Yield Here To Peds Right",
-      "type": "usefull_law",
-      "front": "peds_right_horizontal_yield.png",
-      "back": "default_horiz_back.png"
-    },
-    {
-      "id": "bce09e51-dc49-4459-9945-c302d2ab1900",
-      "name": "Keep Right Except To Pass (State Law)",
-      "type": "usefull_law",
-      "front": "keep_right_except_to_pass.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "3d09f304-b0f2-4181-b8e5-3323af211d63",
-      "name": "Right Only or Right Straight",
-      "type": "usefull_road",
-      "front": "right_only_or_right_straight.png",
-      "back": "duble_signs.png"
-    },
-    {
-      "id": "00440114-dd32-4d99-a666-788a0cec0c06",
-      "name": "Left Or Right",
-      "type": "usefull_road",
-      "front": "left_or_right.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "6fc1d41f-c63b-453b-a1e7-bb314ac9e3e4",
-      "name": "Straight, Left Or Right",
-      "type": "usefull_road",
-      "front": "straight_left_or_right.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "4ee2fb47-8626-4a24-a086-54fa1aff4615",
-      "name": "Straight or Left",
-      "type": "usefull_road",
-      "front": "straight_or_left.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "0766bfed-49f7-4eee-9b6e-29975cf0aa14",
-      "name": "Straight or Right",
-      "type": "usefull_road",
-      "front": "straight_or_right.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "68ea7b44-1534-4d7a-8c99-81bb6e236984",
-      "name": "All Traffic",
-      "type": "usefull_other",
-      "front": "all_traffic.png",
-      "back": "plaque_back.png",
-      "halfheight": true
-    },
-    {
-      "id": "b030d215-a608-4971-a8dd-85066d0c2728",
-      "name": "Left Only",
-      "type": "usefull_road",
-      "front": "left_only.png",
-      "back": "default_rectangle_back.png"
     },
     {
       "id": "0353fa1e-d9da-42d8-bce5-e8fb7926a188",
@@ -594,25 +918,53 @@
       "back": "default_square_back.png"
     },
     {
+      "id": "8bd301f6-5bea-45e9-8e4a-128f06980e2e",
+      "name": "Exit (Left) with #",
+      "type": "usefull_road",
+      "front": "exit_left_number.png",
+      "back": "default_square_back.png",
+      "textlines": [
+        {
+          "label": "Exit Number",
+          "x": 11,
+          "y": 11,
+          "width": 8,
+          "maxlength": 4,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 16777215
+        }
+      ]
+    },
+    {
+      "id": "6bf5a044-c3fa-4b76-9d5a-54a4cf429929",
+      "name": "Exit (Right) with #",
+      "type": "usefull_road",
+      "front": "exit_right_number.png",
+      "back": "default_square_back.png",
+      "textlines": [
+        {
+          "label": "Exit Number",
+          "x": 4.5,
+          "y": 11,
+          "width": 8,
+          "maxlength": 4,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 16777215
+        }
+      ]
+    },
+    {
       "id": "05867748-c9f4-4a3f-9191-d05cfd761ca6",
       "name": "Wrong Way Revamped",
       "type": "usefull_road",
       "front": "wrong_way.png",
       "back": "default_horiz_back.png"
-    },
-    {
-      "id": "3ff10592-5b58-4f05-ab75-4c873f0c79f8",
-      "name": "Right Only",
-      "type": "usefull_road",
-      "front": "right_only.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "6f80d3c3-3005-46f8-9222-762436b5c550",
-      "name": "Straight Only",
-      "type": "usefull_road",
-      "front": "straight_only.png",
-      "back": "default_rectangle_back.png"
     },
     {
       "id": "fd640922-01f8-4059-80bb-e7cb72789f14",
@@ -637,6 +989,14 @@
       "back": "plaque_back.png"
     },
     {
+      "id": "68ea7b44-1534-4d7a-8c99-81bb6e236984",
+      "name": "All Traffic",
+      "type": "usefull_other",
+      "front": "all_traffic.png",
+      "back": "plaque_back.png",
+      "halfheight": true
+    },
+    {
       "id": "5604b802-56a4-46dc-ad35-f72632848b18",
       "name": "Left After Stop",
       "type": "usefull_other",
@@ -649,134 +1009,6 @@
       "type": "usefull_other",
       "front": "rtor_after_stop.png",
       "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "47361ae9-82f2-40ee-8b17-6815768134f3",
-      "name": "Do not block",
-      "type": "usefull_law",
-      "front": "do_not_block_intsctn.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "17366008-e6e7-401f-a9bd-756a1bd9568c",
-      "name": "New",
-      "type": "usefull_other",
-      "halfheight": true,
-      "front": "new.png",
-      "back": "plaque_back.png"
-    },
-    {
-      "id": "6d91ef6b-0e3e-4d19-a369-35927494e14f",
-      "name": "End Express Lane",
-      "type": "usefull_other",
-      "front": "endexpress.png",
-      "back": "endexpressback.png"
-    },
-    {
-      "id": "9db31d19-90e5-4df4-b11c-4b7ea4c2fc5b",
-      "name": "Event Parking Only",
-      "type": "usefull_parking",
-      "front": "eventp.png",
-      "back": "eventpback.png"
-    },
-    {
-      "id": "877715bc-f0ed-4467-b6ea-515845d1baea",
-      "name": "Emergency Light",
-      "type": "usefull_other",
-      "front": "emergency_signal.png",
-      "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "5f59b928-9fcb-4885-b173-0e959059d1f8",
-      "name": "Parking Closed",
-      "type": "usefull_parking",
-      "front": "lotclosed.png",
-      "back": "lotclosedback.png"
-    },
-    {
-      "id": "c6958e59-479a-4a98-aa1e-47c4476839ad",
-      "name": "Parking Payment",
-      "type": "usefull_parking",
-      "front": "park.png",
-      "back": "parkback.png"
-    },
-    {
-      "id": "5e0b3e2d-2626-46e1-bc71-e068a8c4a97b",
-      "name": "free_parking_reminder",
-      "type": "usefull_parking",
-      "front": "free_parking_reminder.png",
-      "back": "newparkingback.png"
-    },
-    {
-      "id": "b6da0806-094f-41ef-a622-d1fa7659c37b",
-      "name": "paid_pking_ticket",
-      "type": "usefull_parking",
-      "front": "paid_pking_ticket.png",
-      "back": "newusefull_parkingback.png"
-    },
-    {
-      "id": "dd36add7-1335-4555-a2a5-2934a0509265",
-      "name": "Parking_PayNGo",
-      "type": "usefull_parking",
-      "front": "usefull_parking_payngo.png",
-      "back": "usefull_parking_back1.png"
-    },
-    {
-      "id": "b3600b85-a02b-47d9-ba99-bc82c5564e54",
-      "name": "usefull_parking_event",
-      "type": "usefull_parking",
-      "front": "usefull_parking_event.png",
-      "back": "usefull_parking_back1.png"
-    },
-    {
-      "id": "ec9bb957-dbd3-44d9-97d6-407d0ad802d5",
-      "name": "accessibility_free_of_charge",
-      "type": "usefull_parking",
-      "front": "accessibility_free_of_charge.png",
-      "back": "accessibility_free_of_charge_back.png"
-    },
-    {
-      "id": "ed194689-9f1e-4a03-b28d-bafc0e7f9e6e",
-      "name": "No Right Turn Except From Right Lane",
-      "type": "usefull_law",
-      "front": "noturnexcept.png",
-      "back": "noturnexceptback.png"
-    },
-    {
-      "id": "8907e0bc-e06b-4330-9a61-64f410f5921a",
-      "name": "Lane Closed Ahead",
-      "type": "usefull_construction",
-      "front": "leftlaneclosedc.png",
-      "back": "leftlaneclosedcback.png",
-      "textlines": [
-        {
-          "label": "Text",
-          "x": 5.5,
-          "y": 6.5,
-          "width": 5,
-          "maxlength": 10,
-          "xscale": 1.8,
-          "yscale": 1.8,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        }
-      ]
-    },
-
-    {
-      "id": "2d92d839-0a49-4d08-bca6-ac927baeafe1",
-      "name": "Be Prepared To Stop When Flashing",
-      "type": "usefull_warn",
-      "front": "stopwhenflash.png",
-      "back": "stopwhenflashback.png"
-    },
-    {
-      "id": "d295dca0-5ba1-4baa-8469-86a3049a143d",
-      "name": "Emergency Signal",
-      "type": "usefull_other",
-      "front": "emergency_signal_hopriz.png",
-      "back": "default_horiz_back.png"
     },
     {
       "id": "0cef25c5-03f5-4bde-a264-91b67ab70602",
@@ -793,25 +1025,70 @@
       "back": "pedback.png"
     },
     {
-      "id": "3f8c7a13-0464-4569-af74-d24c93637999",
-      "name": "US Route Shield",
-      "type": "usefull_shield",
-      "front": "us.png",
-      "back": "usback.png",
-      "textlines": [
-        {
-          "label": "US Route Number",
-          "x": 8,
-          "y": 8,
-          "width": 13.6,
-          "maxlength": 3,
-          "xscale": 8,
-          "yscale": 8,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        }
-      ]
+      "id": "ed194689-9f1e-4a03-b28d-bafc0e7f9e6e",
+      "name": "No Right Turn Except From Right Lane",
+      "type": "usefull_law",
+      "front": "noturnexcept.png",
+      "back": "noturnexceptback.png"
+    },
+    {
+      "id": "47361ae9-82f2-40ee-8b17-6815768134f3",
+      "name": "Do not block",
+      "type": "usefull_law",
+      "front": "do_not_block_intsctn.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "6d91ef6b-0e3e-4d19-a369-35927494e14f",
+      "name": "End Express Lane",
+      "type": "usefull_other",
+      "front": "endexpress.png",
+      "back": "endexpressback.png"
+    },
+    {
+      "id": "877715bc-f0ed-4467-b6ea-515845d1baea",
+      "name": "Emergency Light",
+      "type": "usefull_other",
+      "front": "emergency_signal.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "139c7509-2cdc-48d0-b966-a5b2c0a991fe",
+      "name": "Center Lane",
+      "type": "usefull_road",
+      "front": "center_left_turn_lane.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
+      "id": "17366008-e6e7-401f-a9bd-756a1bd9568c",
+      "name": "New",
+      "type": "usefull_other",
+      "halfheight": true,
+      "front": "new.png",
+      "back": "plaque_back.png"
+    },
+    {
+      "id": "c6d1765a-d97e-4f0b-9a67-b7089d0a3b81",
+      "name": "Ice plaque",
+      "type": "usefull_warn",
+      "front": "ice_plaque_front.png",
+      "back": "ice_plaque_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "2d92d839-0a49-4d08-bca6-ac927baeafe1",
+      "name": "Be Prepared To Stop When Flashing",
+      "type": "usefull_warn",
+      "front": "stopwhenflash.png",
+      "back": "stopwhenflashback.png"
+    },
+    {
+      "id": "d295dca0-5ba1-4baa-8469-86a3049a143d",
+      "name": "Emergency Signal",
+      "type": "usefull_other",
+      "front": "emergency_signal_hopriz.png",
+      "back": "default_horiz_back.png"
     },
     {
       "id": "571095b1-ef7b-4b93-93a6-6120bb0394b0",
@@ -870,7 +1147,6 @@
         }
       ]
     },
-
     {
       "id": "d2f4844a-32db-467c-badc-7f30dbcb5d36",
       "name": "Warnning Sign Square (3 lines)",
@@ -914,18 +1190,8 @@
           "valign": "center",
           "color": 0
         }
-        
       ]
     },
-
-    {
-      "id": "07016590-8cef-405d-b3b4-a8964d6b81ec",
-      "name": "Construction Do not enter",
-      "type": "usefull_construction",
-      "front": "cfront.png",
-      "back": "cback.png"
-    },
-
     {
       "id": "abb9f5a7-b8d8-427a-b0e3-55e3d52eea6f",
       "name": "Warning Sign Yellow (4 Lines)",
@@ -1026,7 +1292,6 @@
           "valign": "center",
           "color": 0
         }
-        
       ]
     },
     {
@@ -1129,7 +1394,6 @@
           "valign": "center",
           "color": 0
         }
-        
       ]
     },
     {
@@ -1232,7 +1496,6 @@
           "valign": "center",
           "color": 0
         }
-        
       ]
     },
     {
@@ -1335,10 +1598,8 @@
           "valign": "center",
           "color": 0
         }
-        
       ]
     },
-
     {
       "id": "4fa842fe-c725-4246-bf1d-51089863e062",
       "name": "Mile Marker",
@@ -1360,7 +1621,6 @@
         }
       ]
     },
-
     {
       "id": "3c949f70-3118-4e26-9387-aa98b105de26",
       "name": "Mile Marker US Route",
@@ -1494,14 +1754,6 @@
       ]
     },
     {
-      "id": "ddda6304-efd5-4457-9357-2f7ce9d21f53",
-      "name": "School Speed (Buttom)",
-      "type": "usefull_law",
-      "front": "big_school_speed_limit_bottom.png",
-      "back": "big_school_speed_limit_bottom_back.png"
-      
-    },
-    {
       "id": "af5204eb-a0ba-40ce-92f6-adf02faf5b39",
       "name": "Speed Limit Revamped",
       "type": "usefull_law",
@@ -1542,6 +1794,13 @@
           "color": 0
         }
       ]
+    },
+    {
+      "id": "ddda6304-efd5-4457-9357-2f7ce9d21f53",
+      "name": "School Speed (Buttom)",
+      "type": "usefull_law",
+      "front": "big_school_speed_limit_bottom.png",
+      "back": "big_school_speed_limit_bottom_back.png"
     },
     {
       "id": "23073897-ed54-4184-be32-574132c08ecb",
@@ -1640,110 +1899,11 @@
       ]
     },
     {
-      "id": "f8a319b5-a40e-4be1-a6e4-b3c9e4e5cca2",
-      "name": "Double Plaque Orange",
-      "type": "usefull_construction",
-      "front": "double_plaque_oo_large.png",
-      "back": "double_plaque_large_back.png",
-      "textlines": [
-        {
-          "label": "Top Text",
-          "x": 8,
-          "y": 4,
-          "width": 11,
-          "maxlength": 10,
-          "xscale": 5,
-          "yscale": 5,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        },
-        {
-          "label": "Bottom Text",
-          "x": 8,
-          "y": 12.5,
-          "width": 11,
-          "maxlength": 10,
-          "xscale": 5,
-          "yscale": 5,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        }
-      ]
-    },
-    {
-      "id": "1ac96052-dd43-4093-87dd-f2551d044ec1",
-      "name": "Double Plaque Detour White Buttom",
-      "type": "usefull_construction",
-      "front": "detour_with_plaque.png",
-      "back": "double_plaque_large_back.png",
-      "textlines": [
-        
-        {
-          "label": "Bottom Text",
-          "x": 8,
-          "y": 12.5,
-          "width": 11,
-          "maxlength": 10,
-          "xscale": 5,
-          "yscale": 5,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        }
-      ]
-    },
-    {
-      "id": "560887ba-203e-4b03-8e54-19196fe87932",
-      "name": "Double Plaque Detour Orange Buttom",
-      "type": "usefull_construction",
-      "front": "detour_with_plaque_orange.png",
-      "back": "double_plaque_large_back.png",
-      "textlines": [
-        
-        {
-          "label": "Bottom Text",
-          "x": 8,
-          "y": 12.5,
-          "width": 11,
-          "maxlength": 10,
-          "xscale": 5,
-          "yscale": 5,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        }
-      ]
-    },
-    {
       "id": "fbed6585-f10a-458f-b65b-5e6746024d2c",
       "name": "Top Plaque",
       "type": "usefull_other",
       "front": "plaque_top.png",
       "back": "plaque_back.png",
-      "halfheight": true,
-      "textlines": [
-        {
-          "label": "Text",
-          "x": 8,
-          "y": 12.5,
-          "width": 11,
-          "maxlength": 10,
-          "xscale": 5,
-          "yscale": 5,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        }
-      ]
-    },
-    {
-      "id": "a857f161-dd4b-4a03-b897-242952a3ec0d",
-      "name": "Top Plaque Orange",
-      "type": "usefull_construction",
-      "front": "plaque_top_large_orange.png",
-      "back": "low_plaque_large_back.png",
       "halfheight": true,
       "textlines": [
         {
@@ -1782,18 +1942,26 @@
       ]
     },
     {
-      "id": "3de3fdcd-d932-4f14-addb-2691f6b240ac",
-      "name": "Bottom Plaque",
-      "type": "usefull_construction",
-      "front": "plaque_bottom_large_orange.png",
-      "back": "high_plaque_large_back.png",
+      "id": "7bf35689-28da-4fe9-98b7-af7b23beaba9",
+      "name": "Dial 511 (traffic lights)",
+      "type": "usefull_other",
+      "front": "dial_511.png",
+      "back": "default_horiz_back.png"
+    },
+    {
+      "id": "98e3a41b-f6a3-41ef-a0ea-a9244d830c7f",
+      "name": "Big Exit Advisory Top (Custom)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_top_(custom)_front.png",
+      "back": "big_exit_advisory_sign_top_(ramp)_back.png",
+      "halfheight": true,
       "textlines": [
         {
-          "label": "Text",
+          "label": "text",
           "x": 8,
-          "y": 4,
-          "width": 11,
-          "maxlength": 10,
+          "y": 12.5,
+          "width": 15,
+          "maxlength": 8,
           "xscale": 5,
           "yscale": 5,
           "halign": "center",
@@ -1803,88 +1971,536 @@
       ]
     },
     {
-      "id": "8bd301f6-5bea-45e9-8e4a-128f06980e2e",
-      "name": "Exit (Left) with #",
-      "type": "usefull_road",
-      "front": "exit_left_number.png",
+      "id": "aa132f2c-4a2d-4b5f-80a6-0ad0adc2916e",
+      "name": "Big Exit Advisory Sign Top (Ramp)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_top_(ramp)_front.png",
+      "back": "big_exit_advisory_sign_top_(ramp)_back.png",
+      "halfheight": true,
+      "textlines": []
+    },
+    {
+      "id": "464ca65d-4779-4662-9c48-03e08e2f0f97",
+      "name": "Big Exit Advisory Sign (Exit) TOP",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_(exit)_top_front.png",
+      "back": "big_exit_advisory_sign_top_(ramp)_back.png",
+      "halfheight": true,
+      "textlines": []
+    },
+    {
+      "id": "7a6aa2da-5879-461f-bfcf-8d0eb6c75cea",
+      "name": "Big Exit Advisory Sign Left",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_left_front.png",
+      "back": "big_exit_advisory_sign_left_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "12c3b655-d1b8-4320-9fc9-6fd2d1584d23",
+      "name": "Big Exit Advisory Sign Left (Curve)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_left_(curve)_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "61df2ba3-e233-472e-a61a-6a1241f8953d",
+      "name": "Big Exit Advisory Sign Left (Z Turn)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_left_(z_turn)_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "e76ce102-1895-4cb2-9538-cf8aa5d20d97",
+      "name": "Big Exit Advisory Sign Left (S Curve)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_left_(s_curve)_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "379a984b-bdcb-4c0d-80a3-fdfa1e7e7a7e",
+      "name": "Big Exit Advisory Sign Left (Winding)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_left_(winding)_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "1e8fe1ad-6793-4e4a-bd87-e4d448d45778",
+      "name": "Big Exit Advisory Sign Left (Hairpin)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_left_(hairpin)_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "946bd90c-fb35-40b5-97fb-d9fcedcd40c8",
+      "name": "Road splits ahead",
+      "type": "usefull_warn",
+      "front": "road_splits_ahead_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "3e7111b9-9a1d-4295-b54a-8ee9af1dfa54",
+      "name": "Lane must turn right",
+      "type": "usefull_law",
+      "front": "lane_must_turn_right_front.png",
       "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "31dc9066-048a-4b50-8a8a-9ee5b98f05e2",
+      "name": "Big Exit Advisory Sign Left (270)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_left_(270)_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "00586609-0ca0-4216-b684-30049c592135",
+      "name": "Big exit advisory sign body 270 right",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_body_270_right_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "535f257e-25c0-4618-b681-09b6f7e88905",
+      "name": "Big exit advisory sign body hairpin right",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_body_hairpin_right_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "26b20dc4-42cb-4b40-8071-9c6cd5a58988",
+      "name": "Big exit advisory sign body winding right",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_body_winding_right_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "891a58d7-011f-4f66-af99-cc3866c177ee",
+      "name": "Big exit advisory sign body scurve right",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_body_scurve_right_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "6c9d12d6-ba9e-4160-bd37-23f2dd94141d",
+      "name": "Big exit advisory sign body zturn right",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_body_zturn_right_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "9748c120-c17c-42c3-99d7-e29ee997d117",
+      "name": "Big exit advisory sign body curve right",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_body_curve_right_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "02d40138-15a1-4dee-a696-e7b62909d081",
+      "name": "Big exit advisory sign  right",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_right_front.png",
+      "back": null,
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "6b805e78-a2e4-4fa8-8086-c681e43a8be3",
+      "name": "Big Exit Advisory Sign Bottom (Custom)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_bottom_(custom)_front.png",
+      "back": "big_exit_advisory_sign_(bottom)_back.png",
+      "halfheight": false,
       "textlines": [
         {
-          "label": "Exit Number",
-          "x": 11,
-          "y": 11,
+          "label": "number",
+          "x": 8,
+          "y": 5,
           "width": 8,
-          "maxlength": 4,
+          "maxlength": 3,
           "xscale": 5,
           "yscale": 5,
           "halign": "center",
           "valign": "center",
-          "color": 16777215
-        }
-      ]
-    },
-    {
-      "id": "6bf5a044-c3fa-4b76-9d5a-54a4cf429929",
-      "name": "Exit (Right) with #",
-      "type": "usefull_road",
-      "front": "exit_right_number.png",
-      "back": "default_square_back.png",
-      "textlines": [
+          "color": 0
+        },
         {
-          "label": "Exit Number",
-          "x": 4.5,
-          "y": 11,
-          "width": 8,
-          "maxlength": 4,
+          "label": "text",
+          "x": 8,
+          "y": 12,
+          "width": 15,
+          "maxlength": 8,
           "xscale": 5,
           "yscale": 5,
           "halign": "center",
           "valign": "center",
-          "color": 16777215
+          "color": 0
         }
       ]
     },
     {
-      "id": "7bf35689-28da-4fe9-98b7-af7b23beaba9",
-      "name": "Dial 511 (traffic lights)",
-      "type": "usefull_other",
-      "front": "dial_511.png",
-      "back": "default_horiz_back.png"
+      "id": "21221138-05ab-4f67-ac46-fec01dc7a097",
+      "name": "Big Exit Advisory Sign (Bottom)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_(bottom)_front.png",
+      "back": "big_exit_advisory_sign_(bottom)_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "number",
+          "x": 8,
+          "y": 6,
+          "width": 8,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
     },
     {
-      "id": "139c7509-2cdc-48d0-b966-a5b2c0a991fe",
-      "name": "Center Lane",
-      "type": "usefull_road",
-      "front": "center_left_turn_lane.png",
-      "back": "default_rectangle_back.png"
+      "id": "f7652263-2c70-4580-9426-187864d68548",
+      "name": "Big Exit Advisory Sign Bottom (KMPH)",
+      "type": "usefull_huge",
+      "front": "big_exit_advisory_sign_bottom_(kmph)_front.png",
+      "back": "big_exit_advisory_sign_(bottom)_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "number",
+          "x": 8,
+          "y": 6,
+          "width": 8,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
     },
     {
-      "id": "f0fd71fa-080d-48c7-9ac3-3264ee208cb1",
-      "name": "Left Or Slip Right",
-      "type": "usefull_road",
-      "front": "left_or_slip_right.png",
-      "back": "default_rectangle_back.png"
+      "id": "8edd94ef-a5d7-453c-9c46-78a59992af0d",
+      "name": "Horizontal school speed limit left",
+      "type": "usefull_huge",
+      "front": "horizontal_school_speed_limit_left_front.png",
+      "back": "horizontal_school_speed_limit_left_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "speed",
+          "x": 15,
+          "y": 10,
+          "width": 8,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
     },
     {
-      "id": "01a7a75a-f8c2-408b-95d7-c12e607f1486",
-      "name": "Left, Straight or slip right",
-      "type": "usefull_road",
-      "front": "left_straight_or_slip_right.png",
-      "back": "default_rectangle_back.png"
+      "id": "2b09452b-6308-4d3c-b1e9-4b2231f6d3e6",
+      "name": "Horizontal school speed limit right",
+      "type": "usefull_huge",
+      "front": "horizontal_school_speed_limit_right_front.png",
+      "back": "big_exit_advisory_sign_left_(curve)_back.png",
+      "halfheight": false,
+      "textlines": []
     },
     {
-      "id": "5d3abb6d-cf19-4060-bb85-04516a24c3d9",
-      "name": "Straight or slip right",
-      "type": "usefull_road",
-      "front": "straight_or_slip_right.png",
-      "back": "default_rectangle_back.png"
+      "id": "46b90d78-bee4-4c02-957d-d09b89ed4eae",
+      "name": "Changeable message sign left end 3row",
+      "type": "usefull_huge",
+      "front": "changeable_message_sign_left_end_3row_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
     },
     {
-      "id": "499650d8-d982-40f2-9ec9-f7b3d7453703",
-      "name": "Slip Right Only",
-      "type": "usefull_road",
-      "front": "slip_right_only_edge.png",
-      "back": "default_rectangle_back.png"
+      "id": "ecfc1917-4843-4713-acea-bde513cc6dfc",
+      "name": "Changeable message sign center 3row",
+      "type": "usefull_huge",
+      "front": "changeable_message_sign_center_3row_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "text",
+          "x": 8,
+          "y": 3,
+          "width": 105,
+          "maxlength": 100,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 16746496
+        },
+        {
+          "label": "text",
+          "x": 8,
+          "y": 8,
+          "width": 105,
+          "maxlength": 100,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 16746496
+        },
+        {
+          "label": "text",
+          "x": 8,
+          "y": 13,
+          "width": 105,
+          "maxlength": 100,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 16746496
+        }
+      ]
+    },
+    {
+      "id": "be8d7e20-92a0-4cd0-bea6-4a333355d43e",
+      "name": "Changeable message sign right end 3row",
+      "type": "usefull_huge",
+      "front": "changeable_message_sign_right_end_3row_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "7f405c26-c1b3-426e-b71b-a130a35f743e",
+      "name": "Changeable message sign left end 2row",
+      "type": "usefull_huge",
+      "front": "changeable_message_sign_left_end_2row_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "c18b5688-1818-42e2-aff4-d642ddb43971",
+      "name": "Changeable message sign center 2row",
+      "type": "usefull_huge",
+      "front": "changeable_message_sign_center_2row_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "text",
+          "x": 8,
+          "y": 4,
+          "width": 105,
+          "maxlength": 100,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        },
+        {
+          "label": "text",
+          "x": 8,
+          "y": 12,
+          "width": 105,
+          "maxlength": 100,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "9a856c72-261e-45a4-941c-2e73599ee551",
+      "name": "Changeable message sign right end 2row",
+      "type": "usefull_huge",
+      "front": "changeable_message_sign_right_end_2row_front.png",
+      "back": null,
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "bf24e7b5-8530-4558-ace9-e40707bc3590",
+      "name": "All traffic must turn left",
+      "type": "usefull_law",
+      "front": "all_traffic_must_turn_left_front.png",
+      "back": null,
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "f64dca59-f762-4cdb-a288-0ae1e392688c",
+      "name": "Lane must turn left",
+      "type": "usefull_law",
+      "front": "lane_must_turn_left_front.png",
+      "back": null,
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "b8b76a35-6e84-45b2-9635-fc2fe600d391",
+      "name": "Lane must ramp left",
+      "type": "usefull_law",
+      "front": "lane_must_ramp_left_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "f9222236-90fd-4bf5-8e8c-60cb60fd04a0",
+      "name": "Lane must ramp right",
+      "type": "usefull_law",
+      "front": "lane_must_ramp_right_front.png",
+      "back": "lane_must_ramp_right_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "5023171a-4c61-4809-96a6-32a6ea58edab",
+      "name": "Lane must exit right",
+      "type": "usefull_law",
+      "front": "lane_must_exit_right_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "046e547a-cf89-4001-8ead-04643f725fca",
+      "name": "Lane must exit left",
+      "type": "usefull_law",
+      "front": "lane_must_exit_left_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "13c603e8-e7d7-474f-a65d-5ea833445ebb",
+      "name": "Big arrow left head",
+      "type": "usefull_huge",
+      "front": "big_arrow_left_head_front.png",
+      "back": "big_arrow_left_head_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "d77287a6-8010-4b69-a3a0-1f8d4d2bd8ff",
+      "name": "Big arrow right tail",
+      "type": "usefull_huge",
+      "front": "big_arrow_right_tail_front.png",
+      "back": "big_arrow_left_head_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "c1a3267b-b8b2-45ab-a37e-1a6296c6fa29",
+      "name": "Big arrow stem",
+      "type": "usefull_huge",
+      "front": "big_arrow_stem_front.png",
+      "back": "big_arrow_stem_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "8b507913-f6b0-4756-81cb-dce65d8e1185",
+      "name": "Big arrow right head",
+      "type": "usefull_huge",
+      "front": "big_arrow_right_head_front.png",
+      "back": "big_arrow_right_head_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "3d80c994-2bd1-4e99-b3f5-516bcbb4dfdd",
+      "name": "Big arrow left tail",
+      "type": "usefull_huge",
+      "front": "big_arrow_left_tail_front.png",
+      "back": "big_arrow_left_head_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "a76da4a1-cc8c-4529-a351-b4238c8fe2ef",
+      "name": "Big arrow right tail construction",
+      "type": "usefull_huge",
+      "front": "big_arrow_right_tail_construction_front.png",
+      "back": "big_arrow_left_head_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "5a526c50-03a6-43a6-9415-1c663bc919b6",
+      "name": "Big arrow left head construction",
+      "type": "usefull_huge",
+      "front": "big_arrow_left_head_construction_front.png",
+      "back": "big_arrow_left_head_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "45dd602d-9280-4267-bb58-c3e1b89460d6",
+      "name": "Big arrow stem construction",
+      "type": "usefull_huge",
+      "front": "big_arrow_stem_construction_front.png",
+      "back": "big_arrow_stem_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "d2910889-abef-4d0b-9aff-a19b5a8f90c1",
+      "name": "Big arrow right head construction",
+      "type": "usefull_huge",
+      "front": "big_arrow_right_head_construction_front.png",
+      "back": "big_arrow_right_head_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "d74906d5-ad3b-4c8e-a51e-82ea6bb67631",
+      "name": "Big arrow left tail construction",
+      "type": "usefull_huge",
+      "front": "big_arrow_left_tail_construction_front.png",
+      "back": "big_arrow_right_head_back.png",
+      "halfheight": false,
+      "textlines": []
     }
-  ]
+  ],
+  "note": "note: Made or edited with TC Signpack Maker by Gamearoo — https://signs.gamearoo.dev"
 }
