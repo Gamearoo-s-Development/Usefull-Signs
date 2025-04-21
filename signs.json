@@ -12,7 +12,8 @@
     "usefull_shield": "Shields",
     "usefull_markers": "Markers",
     "usefull_covers": "Covers",
-    "usefull_huge": "Huge Multiblock Signs"
+    "usefull_huge": "Huge Multiblock Signs",
+    "test": "HEllo"
   },
   "signs": [
     {
@@ -72,6 +73,13 @@
       "back": "default_rectangle_back.png"
     },
     {
+      "id": "d1ffacad-8ba2-4d9d-82c5-e5a338f699de",
+      "name": "Let them work let them live",
+      "type": "usefull_construction",
+      "front": "let_em_work_let_em_live.png",
+      "back": "default_rectangle_back.png"
+    },
+    {
       "id": "a0c3c0fe-358b-4bdb-8a03-5139e45382ef",
       "name": "Exit Closed",
       "type": "usefull_construction",
@@ -86,41 +94,11 @@
       "back": "default_rectangle_back.png"
     },
     {
-      "id": "98e7d665-4749-47b7-9720-7d5c51f5b94c",
-      "name": "Detour",
-      "type": "usefull_construction",
-      "front": "detour_plaque.png",
-      "back": "low_plaque_large_back.png",
-      "halfheight": true
-    },
-    {
       "id": "6e5f74e4-dc7b-4162-86fc-ef6134f49d50",
       "name": "Work Zone Headlights",
       "type": "usefull_construction",
       "front": "active_work_zone_when_flashing.png",
       "back": "default_rectangle_back.png"
-    },
-    {
-      "id": "a857f161-dd4b-4a03-b897-242952a3ec0d",
-      "name": "Top Plaque Orange",
-      "type": "usefull_construction",
-      "front": "plaque_top_large_orange.png",
-      "back": "low_plaque_large_back.png",
-      "halfheight": true,
-      "textlines": [
-        {
-          "label": "Text",
-          "x": 8,
-          "y": 12.5,
-          "width": 11,
-          "maxlength": 10,
-          "xscale": 5,
-          "yscale": 5,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        }
-      ]
     },
     {
       "id": "0563a68c-e440-45bc-8d4e-6745be19d041",
@@ -156,11 +134,34 @@
       ]
     },
     {
-      "id": "d1ffacad-8ba2-4d9d-82c5-e5a338f699de",
-      "name": "Let them work let them live",
+      "id": "98e7d665-4749-47b7-9720-7d5c51f5b94c",
+      "name": "Detour",
       "type": "usefull_construction",
-      "front": "let_em_work_let_em_live.png",
-      "back": "default_rectangle_back.png"
+      "front": "detour_plaque.png",
+      "back": "low_plaque_large_back.png",
+      "halfheight": true
+    },
+    {
+      "id": "a857f161-dd4b-4a03-b897-242952a3ec0d",
+      "name": "Top Plaque Orange",
+      "type": "usefull_construction",
+      "front": "plaque_top_large_orange.png",
+      "back": "low_plaque_large_back.png",
+      "halfheight": true,
+      "textlines": [
+        {
+          "label": "Text",
+          "x": 8,
+          "y": 12.5,
+          "width": 11,
+          "maxlength": 10,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
     },
     {
       "id": "f8a319b5-a40e-4be1-a6e4-b3c9e4e5cca2",
@@ -315,11 +316,22 @@
       "back": "cback.png"
     },
     {
-      "id": "b349f5bc-9407-4f5c-a707-69454819d104",
-      "name": "End Road Work",
+      "id": "67299503-1a97-4a95-aac6-d9bc2920b17c",
+      "name": "Speed Limit Ahead Variable Construction",
       "type": "usefull_construction",
-      "front": "end_road_work.png",
-      "back": "high_plaque_large_back.png"
+      "front": "speed_limit_ahead_variable_construction_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "7d403304-a53e-4b1c-9530-02bec53b3d7e",
+      "name": "Speed Limit Ahead Variable Construction Visual",
+      "type": "usefull_construction",
+      "front": "speed_limit_ahead_variable_construction_visual_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": []
     },
     {
       "id": "304d8c12-ffdc-49f5-b470-6f5ffc7f7b13",
@@ -327,6 +339,13 @@
       "type": "usefull_construction",
       "front": "no_acceleration_lane.png",
       "back": "leftlaneclosedcback.png"
+    },
+    {
+      "id": "b349f5bc-9407-4f5c-a707-69454819d104",
+      "name": "End Road Work",
+      "type": "usefull_construction",
+      "front": "end_road_work.png",
+      "back": "high_plaque_large_back.png"
     },
     {
       "id": "07016590-8cef-405d-b3b4-a8964d6b81ec",
@@ -414,6 +433,78 @@
       "back": "covered_yield_back.png"
     },
     {
+      "id": "e3e37e9b-01b8-4d8f-8562-1d1895d7c9f5",
+      "name": "Diamond Cover Big 1,1",
+      "type": "usefull_covers",
+      "front": "diamond_cover_big_1_1_front.png",
+      "back": "diamond_cover_big_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "7187e324-84ba-43ea-a7a1-58c526f7ac11",
+      "name": "Diamond Cover Big 1,2",
+      "type": "usefull_covers",
+      "front": "diamond_cover_big_1_2_front.png",
+      "back": "diamond_cover_big_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "e6f3ca5c-53b0-48e9-824d-e10fb613bb53",
+      "name": "Diamond Cover Big 2,1",
+      "type": "usefull_covers",
+      "front": "diamond_cover_big_2_1_front.png",
+      "back": "diamond_cover_big_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "07e0c8c8-729e-49e2-a222-8e1407cf5418",
+      "name": "Diamond Cover Big 2,2",
+      "type": "usefull_covers",
+      "front": "diamond_cover_big_2_2_front.png",
+      "back": "diamond_cover_big_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "e7de5280-a08a-438b-af74-7e2590521234",
+      "name": "Rectangle Cover Big 1,1",
+      "type": "usefull_covers",
+      "front": "rectangle_cover_big_1_1_front.png",
+      "back": "rectangle_cover_big_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "60956fe1-0d60-4822-8ca7-d57b974dd0db",
+      "name": "Rectangle Cover Big 1,2",
+      "type": "usefull_covers",
+      "front": "rectangle_cover_big_1_2_front.png",
+      "back": "rectangle_cover_big_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "5cf025d8-58fd-479e-866d-bc5a4eb47c7d",
+      "name": "Rectangle Cover Big 2,1",
+      "type": "usefull_covers",
+      "front": "rectangle_cover_big_2_1_front.png",
+      "back": "rectangle_cover_big_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "cdf7aa5e-e703-468c-8bc8-fe04cff93a73",
+      "name": "Rectangle Cover Big 2,2",
+      "type": "usefull_covers",
+      "front": "rectangle_cover_big_2_2_front.png",
+      "back": "rectangle_cover_big_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
       "id": "65096c52-7f32-44ad-b204-c39efa418d33",
       "name": "Stop Sign",
       "type": "usefull_road",
@@ -480,11 +571,11 @@
       "id": "2fe574c8-d6d9-4ec8-adb5-21fdb572c3aa",
       "name": "Speed Change Ahead School Zone",
       "type": "usefull_other",
-      "front": "speed_limit_ahead_school.png",
+      "front": "speed_change_ahead_school_zone_front.png",
       "back": "leftlaneclosedcback.png",
       "textlines": [
         {
-          "label": "Text",
+          "label": "text",
           "x": 7.8,
           "y": 9.8,
           "width": 3,
@@ -495,21 +586,45 @@
           "valign": "center",
           "color": 0
         }
-      ]
+      ],
+      "halfheight": false
     },
     {
       "id": "1f05b49f-586d-407a-bf3b-1dd250a45aaf",
       "name": "Bridge Hight",
       "type": "usefull_other",
-      "front": "bridge_hight_sign.png",
+      "front": "bridge_hight_front.png",
       "back": "leftlaneclosedcback.png",
       "textlines": [
         {
-          "label": "Text",
+          "label": "text",
           "x": 7.5,
           "y": 7.5,
           "width": 10,
           "maxlength": 10,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ],
+      "halfheight": false
+    },
+    {
+      "id": "1c55add4-db3a-45c0-a58a-c963b93656d9",
+      "name": "Narrow clearance",
+      "type": "usefull_warn",
+      "front": "narrow_clearance_front.png",
+      "back": "narrow_clearance_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "text",
+          "x": 7.9,
+          "y": 8.2,
+          "width": 8,
+          "maxlength": 6,
           "xscale": 3,
           "yscale": 3,
           "halign": "center",
@@ -541,28 +656,6 @@
       ]
     },
     {
-      "id": "1c55add4-db3a-45c0-a58a-c963b93656d9",
-      "name": "Narrow clearance",
-      "type": "usefull_warn",
-      "front": "narrow_clearance_front.png",
-      "back": "narrow_clearance_back.png",
-      "halfheight": false,
-      "textlines": [
-        {
-          "label": "text",
-          "x": 7.9,
-          "y": 8.2,
-          "width": 8,
-          "maxlength": 6,
-          "xscale": 3,
-          "yscale": 3,
-          "halign": "center",
-          "valign": "center",
-          "color": 0
-        }
-      ]
-    },
-    {
       "id": "3af59150-b371-46ee-80c6-8364e6d4c767",
       "name": "Narrow clearance construction",
       "type": "usefull_construction",
@@ -583,6 +676,51 @@
           "color": 0
         }
       ]
+    },
+    {
+      "id": "b3c047d4-58e9-4f4e-88d8-676652331e97",
+      "name": "Reserved Pking Van",
+      "type": "usefull_law",
+      "front": "reserved_pking_van_front.png",
+      "back": "default_rectangle_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "58699814-7233-48c1-bc7d-3412e5c4a2c2",
+      "name": "Reserved Parking",
+      "type": "usefull_law",
+      "front": "reserved_parking_front.png",
+      "back": "default_rectangle_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "cd97132a-ac19-4d08-9891-4673b2e8455e",
+      "name": "Reserved Pking Left",
+      "type": "usefull_law",
+      "front": "reserved_pking_left_front.png",
+      "back": "default_rectangle_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "881cc394-2029-410b-9e5e-5a0aa3435775",
+      "name": "Reserved Pking Mid",
+      "type": "usefull_law",
+      "front": "reserved_pking_mid_front.png",
+      "back": "default_rectangle_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "9d2685cb-bfa1-4b2b-98c7-247402d775ca",
+      "name": "Reserved Pking Right",
+      "type": "usefull_law",
+      "front": "reserved_pking_right_front.png",
+      "back": "default_rectangle_back.png",
+      "halfheight": false,
+      "textlines": []
     },
     {
       "id": "f24f04aa-c37a-46b4-9d66-287e27737814",
@@ -635,6 +773,50 @@
       "textlines": [
         {
           "label": "Text",
+          "x": 8,
+          "y": 14,
+          "width": 8,
+          "maxlength": 5,
+          "xscale": 1.5,
+          "yscale": 1.5,
+          "halign": "center",
+          "valign": "center",
+          "color": 11541550
+        }
+      ]
+    },
+    {
+      "id": "03159e43-4902-492e-b243-3b2de99f1a72",
+      "name": "Reserved Thin Both Directions",
+      "type": "usefull_law",
+      "front": "reserved_thin_both_directions_front.png",
+      "back": "reserved_thin_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "text",
+          "x": 8,
+          "y": 14,
+          "width": 8,
+          "maxlength": 5,
+          "xscale": 1.5,
+          "yscale": 1.5,
+          "halign": "center",
+          "valign": "center",
+          "color": 11541550
+        }
+      ]
+    },
+    {
+      "id": "468e8504-9767-4bd1-b67f-a8040c7762ae",
+      "name": "Reserved Thin Right",
+      "type": "usefull_law",
+      "front": "reserved_thin_right_front.png",
+      "back": "reserved_thin_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "text",
           "x": 8,
           "y": 14,
           "width": 8,
@@ -883,17 +1065,17 @@
       "back": "peds_inroad_back.png"
     },
     {
-      "id": "991bdaf4-c15b-4845-9ef8-d4e94848d997",
-      "name": "State Law Stop For Peds In CrossWalk (School)",
-      "type": "usefull_law",
-      "front": "peds_yelgrn_inroad_stop.png",
-      "back": "peds_inroad_back.png"
-    },
-    {
       "id": "d72e65cf-aec5-4105-b945-3001f1754076",
       "name": "State Law Yield To Peds In CrossWalk",
       "type": "usefull_law",
       "front": "peds_yellow_inroad_yield.png",
+      "back": "peds_inroad_back.png"
+    },
+    {
+      "id": "991bdaf4-c15b-4845-9ef8-d4e94848d997",
+      "name": "State Law Stop For Peds In CrossWalk (School)",
+      "type": "usefull_law",
+      "front": "peds_yelgrn_inroad_stop.png",
       "back": "peds_inroad_back.png"
     },
     {
@@ -972,6 +1154,15 @@
       "type": "usefull_warn",
       "front": "rampm.png",
       "back": "rampmback.png"
+    },
+    {
+      "id": "946bd90c-fb35-40b5-97fb-d9fcedcd40c8",
+      "name": "Road splits ahead",
+      "type": "usefull_warn",
+      "front": "road_splits_ahead_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": []
     },
     {
       "id": "d393b0e8-db36-4b04-8b7b-0547ed83f705",
@@ -1073,6 +1264,24 @@
       "type": "usefull_warn",
       "front": "ice_plaque_front.png",
       "back": "ice_plaque_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "6e2a4e1c-7909-4615-870f-fcada76715a6",
+      "name": "Speed Limit Ahead Variable",
+      "type": "usefull_warn",
+      "front": "speed_limit_ahead_variable_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "992d4ee6-eb4a-4ce7-a663-2d4be0113571",
+      "name": "Speed Limit Ahead Variable Visual",
+      "type": "usefull_warn",
+      "front": "speed_limit_ahead_variable_visual_front.png",
+      "back": "defualt_diamond_back.png",
       "halfheight": false,
       "textlines": []
     },
@@ -1733,23 +1942,24 @@
       ]
     },
     {
-      "id": "b630b489-6ae6-4d76-80c1-2de3081dfc27",
-      "name": "School Speed (Top)",
+      "id": "339cfb0c-5e58-4abe-b2b8-f81d5de9353c",
+      "name": "Speed Limit Variable",
       "type": "usefull_law",
-      "front": "big_school_speed_limit_top.png",
-      "back": "big_speed_limit_top_back.png",
+      "front": "speed_limit_variable_front.png",
+      "back": "default_rectangle_back.png",
+      "halfheight": false,
       "textlines": [
         {
-          "label": "Speed",
+          "label": "speed",
           "x": 8,
-          "y": 13.2,
+          "y": 12,
           "width": 7,
           "maxlength": 3,
           "xscale": 5,
           "yscale": 5,
           "halign": "center",
           "valign": "center",
-          "color": 0
+          "color": 16777215
         }
       ]
     },
@@ -1764,6 +1974,27 @@
           "label": "Speed",
           "x": 8,
           "y": 12,
+          "width": 7,
+          "maxlength": 3,
+          "xscale": 5,
+          "yscale": 5,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "b630b489-6ae6-4d76-80c1-2de3081dfc27",
+      "name": "School Speed (Top)",
+      "type": "usefull_law",
+      "front": "big_school_speed_limit_top.png",
+      "back": "big_speed_limit_top_back.png",
+      "textlines": [
+        {
+          "label": "Speed",
+          "x": 8,
+          "y": 13.2,
           "width": 7,
           "maxlength": 3,
           "xscale": 5,
@@ -2043,24 +2274,6 @@
       "textlines": []
     },
     {
-      "id": "946bd90c-fb35-40b5-97fb-d9fcedcd40c8",
-      "name": "Road splits ahead",
-      "type": "usefull_warn",
-      "front": "road_splits_ahead_front.png",
-      "back": "defualt_diamond_back.png",
-      "halfheight": false,
-      "textlines": []
-    },
-    {
-      "id": "3e7111b9-9a1d-4295-b54a-8ee9af1dfa54",
-      "name": "Lane must turn right",
-      "type": "usefull_law",
-      "front": "lane_must_turn_right_front.png",
-      "back": "default_square_back.png",
-      "halfheight": false,
-      "textlines": []
-    },
-    {
       "id": "31dc9066-048a-4b50-8a8a-9ee5b98f05e2",
       "name": "Big Exit Advisory Sign Left (270)",
       "type": "usefull_huge",
@@ -2128,7 +2341,7 @@
       "name": "Big exit advisory sign  right",
       "type": "usefull_huge",
       "front": "big_exit_advisory_sign_right_front.png",
-      "back": null,
+      "back": "big_arrow_left_head_back.png",
       "halfheight": false,
       "textlines": []
     },
@@ -2353,16 +2566,7 @@
       "name": "Changeable message sign right end 2row",
       "type": "usefull_huge",
       "front": "changeable_message_sign_right_end_2row_front.png",
-      "back": null,
-      "halfheight": false,
-      "textlines": []
-    },
-    {
-      "id": "bf24e7b5-8530-4558-ace9-e40707bc3590",
-      "name": "All traffic must turn left",
-      "type": "usefull_law",
-      "front": "all_traffic_must_turn_left_front.png",
-      "back": null,
+      "back": "default_square_back.png",
       "halfheight": false,
       "textlines": []
     },
@@ -2371,7 +2575,16 @@
       "name": "Lane must turn left",
       "type": "usefull_law",
       "front": "lane_must_turn_left_front.png",
-      "back": null,
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "3e7111b9-9a1d-4295-b54a-8ee9af1dfa54",
+      "name": "Lane must turn right",
+      "type": "usefull_law",
+      "front": "lane_must_turn_right_front.png",
+      "back": "default_square_back.png",
       "halfheight": false,
       "textlines": []
     },
@@ -2394,15 +2607,6 @@
       "textlines": []
     },
     {
-      "id": "5023171a-4c61-4809-96a6-32a6ea58edab",
-      "name": "Lane must exit right",
-      "type": "usefull_law",
-      "front": "lane_must_exit_right_front.png",
-      "back": "default_square_back.png",
-      "halfheight": false,
-      "textlines": []
-    },
-    {
       "id": "046e547a-cf89-4001-8ead-04643f725fca",
       "name": "Lane must exit left",
       "type": "usefull_law",
@@ -2412,11 +2616,20 @@
       "textlines": []
     },
     {
-      "id": "13c603e8-e7d7-474f-a65d-5ea833445ebb",
-      "name": "Big arrow left head",
-      "type": "usefull_huge",
-      "front": "big_arrow_left_head_front.png",
-      "back": "big_arrow_left_head_back.png",
+      "id": "5023171a-4c61-4809-96a6-32a6ea58edab",
+      "name": "Lane must exit right",
+      "type": "usefull_law",
+      "front": "lane_must_exit_right_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "bf24e7b5-8530-4558-ace9-e40707bc3590",
+      "name": "All traffic must turn left",
+      "type": "usefull_law",
+      "front": "all_traffic_must_turn_left_front.png",
+      "back": "default_square_back.png",
       "halfheight": false,
       "textlines": []
     },
@@ -2425,6 +2638,15 @@
       "name": "Big arrow right tail",
       "type": "usefull_huge",
       "front": "big_arrow_right_tail_front.png",
+      "back": "big_arrow_left_head_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "13c603e8-e7d7-474f-a65d-5ea833445ebb",
+      "name": "Big arrow left head",
+      "type": "usefull_huge",
+      "front": "big_arrow_left_head_front.png",
       "back": "big_arrow_left_head_back.png",
       "halfheight": false,
       "textlines": []
@@ -2498,6 +2720,474 @@
       "type": "usefull_huge",
       "front": "big_arrow_left_tail_construction_front.png",
       "back": "big_arrow_right_head_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "abc8b704-5bf8-4a91-91b6-e603d8681a63",
+      "name": "No Accel Lane Big 1,1",
+      "type": "usefull_huge",
+      "front": "no_accel_lane_big_1_1_front.png",
+      "back": "prepare_to_stop_when_flashing_big_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "4633227c-0434-4029-aee1-d20e86c1433e",
+      "name": "No Accel Lane Big 1,2",
+      "type": "usefull_huge",
+      "front": "no_accel_lane_big_1_2_front.png",
+      "back": "prepare_to_stop_when_flashing_big_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "b427d2bd-7535-4075-8916-1eb9a4359b9e",
+      "name": "No Accel Lane Big 2,1",
+      "type": "usefull_huge",
+      "front": "no_accel_lane_big_2_1_front.png",
+      "back": "prepare_to_stop_when_flashing_big_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "e0aa2eae-dd40-4ec7-a547-27e0f898e3a3",
+      "name": "No Accel Lane Big 2,2",
+      "type": "usefull_huge",
+      "front": "no_accel_lane_big_2_2_front.png",
+      "back": "prepare_to_stop_when_flashing_big_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "7ef8da9e-9c47-4ed7-8e6e-cc16224fae75",
+      "name": "Prepare To Stop When Flashing Big 1,1",
+      "type": "usefull_huge",
+      "front": "prepare_to_stop_when_flashing_big_1_1_front.png",
+      "back": "prepare_to_stop_when_flashing_big_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "570675f5-8d93-4c42-a00f-0bce3523d130",
+      "name": "Prepare To Stop When Flashing Big 1,2",
+      "type": "usefull_huge",
+      "front": "prepare_to_stop_when_flashing_big_1_2_front.png",
+      "back": "prepare_to_stop_when_flashing_big_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "0ed2ff77-f1b3-4abc-b4f7-8b6c2829f9fa",
+      "name": "Prepare To Stop When Flashing Big 2,1",
+      "type": "usefull_huge",
+      "front": "prepare_to_stop_when_flashing_big_2_1_front.png",
+      "back": "prepare_to_stop_when_flashing_big_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "6e121c43-170e-4f5b-a879-ab72bdea5ed7",
+      "name": "Prepare To Stop When Flashing Big 2,2",
+      "type": "usefull_huge",
+      "front": "prepare_to_stop_when_flashing_big_2_2_front.png",
+      "back": "prepare_to_stop_when_flashing_big_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "10db5714-b159-4bb1-bc44-81b860b4cba0",
+      "name": "Let Them Work and live big 1,1",
+      "type": "usefull_huge",
+      "front": "let_them_work_and_live_big_1_1_front.png",
+      "back": "let_them_work_and_live_big_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "8adf6f48-40f7-422e-a17b-83fc34f8d570",
+      "name": "Let Them Work and live big 1,2",
+      "type": "usefull_huge",
+      "front": "let_them_work_and_live_big_1_2_front.png",
+      "back": "let_them_work_and_live_big_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "cbdf7ec9-afe6-4c17-a2d1-16db25a9bf59",
+      "name": "Let Them Work and live big 2,1",
+      "type": "usefull_huge",
+      "front": "let_them_work_and_live_big_2_1_front.png",
+      "back": "let_them_work_and_live_big_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "9f1f8f35-d675-4eb5-808b-ee3a9db9f373",
+      "name": "Let Them Work and live big 2,2",
+      "type": "usefull_huge",
+      "front": "let_them_work_and_live_big_2_2_front.png",
+      "back": "let_them_work_and_live_big_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "6974b41f-c650-4c3a-9187-e1a257176dea",
+      "name": "Wrong Way Big 1,1",
+      "type": "usefull_huge",
+      "front": "wrong_way_big_1_1_front.png",
+      "back": "wrong_way_big_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "1cde6aa0-bfe1-4bc2-9446-1d0096e31670",
+      "name": "Wrong Way Big 1,2",
+      "type": "usefull_huge",
+      "front": "wrong_way_big_1_2_front.png",
+      "back": "wrong_way_big_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "17dab312-a544-4333-aa23-34a9b315630f",
+      "name": "Wrong Way Big 2,1",
+      "type": "usefull_huge",
+      "front": "wrong_way_big_2_1_front.png",
+      "back": "wrong_way_big_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "bff77c70-96ac-4415-b871-854abf13c796",
+      "name": "Wrong Way Big 2,2",
+      "type": "usefull_huge",
+      "front": "wrong_way_big_2_2_front.png",
+      "back": "wrong_way_big_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "356c0393-1882-484e-af07-7c0646e33ab0",
+      "name": "Right Lane ends Big (Constroction) 1,1",
+      "type": "usefull_huge",
+      "front": "right_lane_ends_big_(constroction)_1_1_front.png",
+      "back": "right_lane_ends_big_(constroction)_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "fe2fcff5-e9ef-4278-84cf-1b45994a52a8",
+      "name": "Right Lane ends Big (Constroction) 1,2",
+      "type": "usefull_huge",
+      "front": "right_lane_ends_big_(constroction)_1_2_front.png",
+      "back": "right_lane_ends_big_(constroction)_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "f66186b3-6333-4255-a6b6-c64e1229f12b",
+      "name": "Right Lane ends Big (Constroction) 2,1",
+      "type": "usefull_huge",
+      "front": "right_lane_ends_big_(constroction)_2_1_front.png",
+      "back": "right_lane_ends_big_(constroction)_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "33b017f7-3a04-4942-91f6-7e40b785d7c3",
+      "name": "Right Lane ends Big (Constroction) 2,2",
+      "type": "usefull_huge",
+      "front": "right_lane_ends_big_(constroction)_2_2_front.png",
+      "back": "right_lane_ends_big_(constroction)_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "66eb308b-9f84-4969-b69b-d85044fa8906",
+      "name": "Left Lane Ends  Big (Constroction) 1,1",
+      "type": "usefull_huge",
+      "front": "left_lane_ends_big_(constroction)_1_1_front.png",
+      "back": "left_lane_ends_big_(constroction)_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "6a547df3-858b-498e-83d0-c4b81ba27d2b",
+      "name": "Left Lane Ends  Big (Constroction) 1,2",
+      "type": "usefull_huge",
+      "front": "left_lane_ends_big_(constroction)_1_2_front.png",
+      "back": "left_lane_ends_big_(constroction)_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "73894184-0adc-41d4-b528-8cf0ee8f9e86",
+      "name": "Left Lane Ends  Big (Constroction) 2,1",
+      "type": "usefull_huge",
+      "front": "left_lane_ends_big_(constroction)_2_1_front.png",
+      "back": "left_lane_ends_big_(constroction)_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "197a13fe-c727-4d01-b9e9-b57b78fd0bdc",
+      "name": "Left Lane Ends  Big (Constroction) 2,2",
+      "type": "usefull_huge",
+      "front": "left_lane_ends_big_(constroction)_2_2_front.png",
+      "back": "left_lane_ends_big_(constroction)_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "2f0b0fca-5962-4577-acf1-e907fbcc67ab",
+      "name": "Left lane Ends 1000ft Big 1,1",
+      "type": "usefull_huge",
+      "front": "left_lane_ends_1000ft_big_1_1_front.png",
+      "back": "left_lane_ends_1000ft_big_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "5c4ee0b8-ec17-4ac2-a96e-7d6294cd90f8",
+      "name": "Left lane Ends 1000ft Big 1,2",
+      "type": "usefull_huge",
+      "front": "left_lane_ends_1000ft_big_1_2_front.png",
+      "back": "left_lane_ends_1000ft_big_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "45b82f5c-5796-403d-9eb2-5176609b4bbd",
+      "name": "Left lane Ends 1000ft Big 2,1",
+      "type": "usefull_huge",
+      "front": "left_lane_ends_1000ft_big_2_1_front.png",
+      "back": "left_lane_ends_1000ft_big_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "4c9e163a-0654-48e7-97c9-40978761095d",
+      "name": "Left lane Ends 1000ft Big 2,2",
+      "type": "usefull_huge",
+      "front": "left_lane_ends_1000ft_big_2_2_front.png",
+      "back": "left_lane_ends_1000ft_big_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "b242cd14-3b98-4291-8216-71882a604a2d",
+      "name": "Lane Ends 1000 FT Right Big 1,1",
+      "type": "usefull_huge",
+      "front": "lane_ends_1000_ft_right_big_1_1_front.png",
+      "back": "lane_ends_1000_ft_right_big_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "ec255433-57e5-4f91-b7f4-49b5c3cc8bb4",
+      "name": "Lane Ends 1000 FT Right Big 1,2",
+      "type": "usefull_huge",
+      "front": "lane_ends_1000_ft_right_big_1_2_front.png",
+      "back": "lane_ends_1000_ft_right_big_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "2df4b095-114c-4cb5-9812-67bd2ea26bc7",
+      "name": "Lane Ends 1000 FT Right Big 2,1",
+      "type": "usefull_huge",
+      "front": "lane_ends_1000_ft_right_big_2_1_front.png",
+      "back": "lane_ends_1000_ft_right_big_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "bef70c67-cf09-4e13-82e2-616e1d0adb2e",
+      "name": "Lane Ends 1000 FT Right Big 2,2",
+      "type": "usefull_huge",
+      "front": "lane_ends_1000_ft_right_big_2_2_front.png",
+      "back": "lane_ends_1000_ft_right_big_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "326564bc-3066-4058-93d3-c5caf9abade6",
+      "name": "Stright Or Left (BIG) 1,1",
+      "type": "usefull_huge",
+      "front": "stright_or_left_(big)_1_1_front.png",
+      "back": "stright_or_left_(big)_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "6e5a02ea-59b3-478c-9d4c-757ca6343eec",
+      "name": "Stright Or Left (BIG) 1,2",
+      "type": "usefull_huge",
+      "front": "stright_or_left_(big)_1_2_front.png",
+      "back": "stright_or_left_(big)_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "aa3fe956-9688-48eb-9eda-5c0389856cd5",
+      "name": "Stright Or Left (BIG) 2,1",
+      "type": "usefull_huge",
+      "front": "stright_or_left_(big)_2_1_front.png",
+      "back": "stright_or_left_(big)_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "6978cacd-5a1b-4b3b-8c6f-467d2e54a09f",
+      "name": "Stright Or Left (BIG) 2,2",
+      "type": "usefull_huge",
+      "front": "stright_or_left_(big)_2_2_front.png",
+      "back": "stright_or_left_(big)_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "23301fe3-6826-49b5-874e-faa0eb45754a",
+      "name": "Stright Or Right (BIG) 1,1",
+      "type": "usefull_huge",
+      "front": "stright_or_right_(big)_1_1_front.png",
+      "back": "stright_or_right_(big)_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "3907ee18-f509-474d-9e18-1b013665e8ef",
+      "name": "Stright Or Right (BIG) 1,2",
+      "type": "usefull_huge",
+      "front": "stright_or_right_(big)_1_2_front.png",
+      "back": "stright_or_right_(big)_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "b4745ed0-1252-4fc9-bb80-5e43e47ecc32",
+      "name": "Stright Or Right (BIG) 2,1",
+      "type": "usefull_huge",
+      "front": "stright_or_right_(big)_2_1_front.png",
+      "back": "stright_or_right_(big)_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "7ea77081-dd14-42b4-9c40-d82539e023a8",
+      "name": "Stright Or Right (BIG) 2,2",
+      "type": "usefull_huge",
+      "front": "stright_or_right_(big)_2_2_front.png",
+      "back": "stright_or_right_(big)_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "57fe5836-3e87-47a4-9457-28347c9770c1",
+      "name": "Right (BIG) 1,1",
+      "type": "usefull_huge",
+      "front": "right_(big)_1_1_front.png",
+      "back": "right_(big)_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "02851422-6686-40a5-a3b5-2373a6c4504a",
+      "name": "Right (BIG) 1,2",
+      "type": "usefull_huge",
+      "front": "right_(big)_1_2_front.png",
+      "back": "right_(big)_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "2855c5ec-9e99-4f5b-86d1-5348150cf40c",
+      "name": "Right (BIG) 2,1",
+      "type": "usefull_huge",
+      "front": "right_(big)_2_1_front.png",
+      "back": "right_(big)_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "33b99187-dce5-4fd8-9538-55359dcffa56",
+      "name": "Right (BIG) 2,2",
+      "type": "usefull_huge",
+      "front": "right_(big)_2_2_front.png",
+      "back": "right_(big)_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "96d73063-6c4e-4e0c-9896-414befa6c220",
+      "name": "Left (BIG) 1,1",
+      "type": "usefull_huge",
+      "front": "left_(big)_1_1_front.png",
+      "back": "left_(big)_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "1e365ad7-3d0d-426f-8304-6a3289432aac",
+      "name": "Left (BIG) 1,2",
+      "type": "usefull_huge",
+      "front": "left_(big)_1_2_front.png",
+      "back": "left_(big)_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "34e72923-f3b6-4b95-8e29-5cf3e1025b77",
+      "name": "Left (BIG) 2,1",
+      "type": "usefull_huge",
+      "front": "left_(big)_2_1_front.png",
+      "back": "left_(big)_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "9943405e-9f51-46ab-b59a-d8889bccd85d",
+      "name": "Left (BIG) 2,2",
+      "type": "usefull_huge",
+      "front": "left_(big)_2_2_front.png",
+      "back": "left_(big)_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "ac0572aa-4f18-470f-8fe1-05b203162f6b",
+      "name": "Straight (BIG) 1,1",
+      "type": "usefull_huge",
+      "front": "straight_(big)_1_1_front.png",
+      "back": "straight_(big)_1_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "c79a585d-4d90-4f98-9038-9b770a33ab7b",
+      "name": "Straight (BIG) 1,2",
+      "type": "usefull_huge",
+      "front": "straight_(big)_1_2_front.png",
+      "back": "straight_(big)_1_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "b243ebcd-c2aa-43ce-bf8e-fc335aafd993",
+      "name": "Straight (BIG) 2,1",
+      "type": "usefull_huge",
+      "front": "straight_(big)_2_1_front.png",
+      "back": "straight_(big)_2_1_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "9ffeb345-6223-43c4-a930-2486598d30b7",
+      "name": "Straight (BIG) 2,2",
+      "type": "usefull_huge",
+      "front": "straight_(big)_2_2_front.png",
+      "back": "straight_(big)_2_2_back.png",
       "halfheight": false,
       "textlines": []
     }
