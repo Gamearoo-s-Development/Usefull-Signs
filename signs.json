@@ -281,6 +281,28 @@
       ]
     },
     {
+      "id": "29872029-6e93-4209-b7bc-9aedf6bd01fb",
+      "name": "Lane Ends Orange",
+      "type": "usefull_construction",
+      "front": "lane_ends_orange_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "lane",
+          "x": 8,
+          "y": 5,
+          "width": 6,
+          "maxlength": 7,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
       "id": "6732f0ea-9c51-44b8-aae2-8d6dec0507b2",
       "name": "Work Zone Active when flashing",
       "type": "usefull_construction",
@@ -625,6 +647,28 @@
           "y": 8.2,
           "width": 8,
           "maxlength": 6,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "3aae8f77-03d3-43da-97f0-a7869ef86d41",
+      "name": "Lane Ends Yellow",
+      "type": "usefull_warn",
+      "front": "lane_ends_yellow_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "lane",
+          "x": 8,
+          "y": 5,
+          "width": 6,
+          "maxlength": 7,
           "xscale": 3,
           "yscale": 3,
           "halign": "center",
@@ -3188,6 +3232,228 @@
       "type": "usefull_huge",
       "front": "straight_(big)_2_2_front.png",
       "back": "straight_(big)_2_2_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "913fc673-85c3-4f4b-a7c3-45bdc8e5a1aa",
+      "name": "Lane Closed Ahead Yellow",
+      "type": "usefull_warn",
+      "front": "lane_closed_ahead_yellow_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "lane",
+          "x": 6,
+          "y": 6,
+          "width": 5,
+          "maxlength": 7,
+          "xscale": 2,
+          "yscale": 2,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "5081b70c-fe6d-4005-b456-394ee8c9b466",
+      "name": "Hawk Beacon Ahead",
+      "type": "usefull_warn",
+      "front": "hawk_beacon_ahead_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "648f0f5a-1461-4971-9945-bba3c1bd0c2b",
+      "name": "Pedestrian And Cycle Crossing Right",
+      "type": "usefull_other",
+      "front": "pedestrian_and_cycle_crossing_right_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "de509564-5d20-4ecb-b4c8-a57829d714a2",
+      "name": "Pedestrian And Cycle Crossing Left",
+      "type": "usefull_other",
+      "front": "pedestrian_and_cycle_crossing_left_front.png",
+      "back": "defualt_diamond_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "187e2cc8-41cb-42cc-8ff0-4622b9c380a7",
+      "name": "Plaque Ahead Pedestrian",
+      "type": "usefull_other",
+      "front": "plaque_ahead_pedestrian_front.png",
+      "back": "high_plaque_large_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "5a06431c-3a50-409a-95b6-18951c36ba49",
+      "name": "Plaque Arrow Lower Double Pedestrian",
+      "type": "usefull_other",
+      "front": "plaque_arrow_lower_double_pedestrian_front.png",
+      "back": "high_plaque_large_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "1bb93ee6-eb21-4490-8837-95e986ef481e",
+      "name": "Plaque Arrow Lower Right Pedestrian",
+      "type": "usefull_other",
+      "front": "plaque_arrow_lower_right_pedestrian_front.png",
+      "back": "plaque_back_high.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "9355d630-2b3e-48ee-8e72-2ff728a8be72",
+      "name": "Bike Lane",
+      "type": "usefull_road",
+      "front": "bike_lane_front.png",
+      "back": "default_horiz_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "73ad83a9-6e94-4c44-9a98-08c46ad8c79c",
+      "name": "Begin Right Turn Lane",
+      "type": "usefull_road",
+      "front": "begin_right_turn_lane_front.png",
+      "back": "default_horiz_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "eb15d215-6afa-477a-b4cd-f22c6043c9b4",
+      "name": "State Law Move Over Or Slow Down",
+      "type": "usefull_law",
+      "front": "state_law_move_over_or_slow_down_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": []
+    },
+    {
+      "id": "a7bfe5ec-0078-48a3-ab15-92843325a061",
+      "name": "Vertical Clearance Off Left",
+      "type": "usefull_huge",
+      "front": "vertical_clearance_off_left_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "number",
+          "x": 8,
+          "y": 8,
+          "width": 9,
+          "maxlength": 7,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "26fb0079-4e5a-46c8-8fc8-ed5d3761839c",
+      "name": "Vertical Clearance Off Right",
+      "type": "usefull_huge",
+      "front": "vertical_clearance_off_right_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "number",
+          "x": 8,
+          "y": 8,
+          "width": 9,
+          "maxlength": 7,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "0f047fc7-7f4e-4e5d-8d39-82770e006fe8",
+      "name": "Vertical Clearance Forward",
+      "type": "usefull_huge",
+      "front": "vertical_clearance_forward_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "number",
+          "x": 8,
+          "y": 8,
+          "width": 9,
+          "maxlength": 7,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "a965c81a-2d8a-4e3b-a5f1-cc614701fa3f",
+      "name": "Vertical Clearance Right",
+      "type": "usefull_huge",
+      "front": "vertical_clearance_right_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "number",
+          "x": 8,
+          "y": 8,
+          "width": 9,
+          "maxlength": 7,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "546aa15e-8646-4f9a-a18f-10138f3d2dad",
+      "name": "Vertical Clearance Left",
+      "type": "usefull_huge",
+      "front": "vertical_clearance_left_front.png",
+      "back": "default_square_back.png",
+      "halfheight": false,
+      "textlines": [
+        {
+          "label": "number",
+          "x": 8,
+          "y": 8,
+          "width": 9,
+          "maxlength": 7,
+          "xscale": 3,
+          "yscale": 3,
+          "halign": "center",
+          "valign": "center",
+          "color": 0
+        }
+      ]
+    },
+    {
+      "id": "687664bf-655a-470d-a2c8-12666236da4e",
+      "name": "Caution Top",
+      "type": "usefull_huge",
+      "front": "caution_top_front.png",
+      "back": "caution_top_back.png",
       "halfheight": false,
       "textlines": []
     }

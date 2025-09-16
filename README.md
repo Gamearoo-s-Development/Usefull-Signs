@@ -3,8 +3,6 @@
 
 New Designs New Signs
 
-Total of 245 Total Sign Blocks (142 Main signs) (18 MultiBlock-other) (34 Multi-block tops) (14 Multi-block middles) (37 multi block bottoms)
-
 Catagorys
 
 Serch using
